@@ -4,8 +4,11 @@ on: [push]
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
+    container:
+      image: shok1122/ruby:3.2.2
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - run: pwd
       - run: ls -la
 
