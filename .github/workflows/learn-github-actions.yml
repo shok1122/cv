@@ -1,6 +1,14 @@
 name: learn-github-actions
+
 run-name: ${{ github.actor }} is learning GitHub Actions
+
 on: [push]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
@@ -9,9 +17,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - run: pwd
-      - run: ls -la
-      - run: ruby -v
-      - run: ls /root
-      - run: cat /root/Gemfile.lock
-
+      - name: Build HTML
+        run:  ruby ./run.rb > dist/index.html
+      - uses: actions/upload-pages-artifact@v1
+        with:
+          path: ./dist
