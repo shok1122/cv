@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <style>
+  </style>
+</head>
+<ol>
+<h2>査読付き学術論文</h2>
+<%- journal.each do |x| -%>
+  <li><%=get(x)%></li>
+<%- end -%>
+<h2>査読付き国際会議論文</h2>
+<%- proceedings.each do |x| -%>
+  <li><%=get(x)%></li>
+<%- end -%>
+</ol>
+</html>

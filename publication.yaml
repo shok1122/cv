@@ -1,0 +1,325 @@
+#-
+#  lang: # en, jp
+#  type: # journal
+#  title: 
+#  author:
+#    - 
+#  journal: 
+#  year: 
+#  volume: 
+#  number: 
+#  page: 
+#    start:
+#    end:
+
+-
+  lang: en # en, jp
+  type: journal
+  title: Distributed Public Key Certificate-Issuing Infrastructure for Consortium Certificate Authority Using Distributed Ledger Technology
+  author:
+    - K. Kumagai
+    - S. Kakei
+    - Y. Shiraishi
+    - S. Saito
+  journal: Security and Communication Networks
+  year: 2023
+  volume: 2023
+  number: 9559439
+  page:
+    start: 1
+    end: 20
+
+-
+  lang: en # en, jp
+  type: journal
+  title: Execution Recording and Reconstruction for Detecting Information Flows in Android Apps
+  author:
+    - H. Inayoshi
+    - S. Kakei
+    - S. Saito
+  journal: IEEE Access
+  year: 2023
+  volume: 11
+  number: 
+  page:
+    start: 10730
+    end: 10750
+
+-
+  lang: en # en, jp
+  type: journal
+  title: Blockchain-based cross-domain authorization system for user-centric resource sharing
+  author:
+    - Y. Ezawa
+    - S. Kakei
+    - Y. Shiraishi
+    - M. Mohri
+    - M. Morii
+  journal: 'Blockchain: Research and Applications'
+  year: 2023
+  volume: 4
+  number: 2
+  page:
+    start: 1
+    end: 15
+
+-
+  lang: en # en, jp
+  type: proceedings
+  title: 'Plug and Analyze: Usable Dynamic Taint Tracker for Android Apps'
+  author:
+    - H. Inayoshi
+    - S. Kakei
+    - S. Saito
+  journal: Proc. of 22nd IEEE International Working Conference on Source Code Analysis and Manipulation
+  year: 2022
+  volume:
+  number:
+  page:
+    start: 24
+    end: 34
+
+-
+  lang: en # en, jp
+  type: proceedings
+  title: Granting Access Privileges using OpenID Connect in Permissioned Distributed Ledgers
+  author:
+    - S. Kakei
+    - Y. Shiraishi
+    - S. Saito
+  journal: Proc. of 18th EAI International Conference on Security and Privacy in Communication Networks (SecureComm 2022)
+  year: 2022
+  volume:
+  number:
+  page:
+    start: 290
+    end: 308
+
+-
+  lang: jp # en, jp
+  type: journal
+  title: IoT機器のWebアプリケーションを模したハニーポットの自動生成フレームワーク
+  author:
+    - 山本萌花
+    - 掛井将平
+    - 齋藤彰一
+  journal: 情報処理学会論文誌
+  year: 2022
+  volume: 63
+  number: 9
+  page:
+    start: 1499
+    end: 1511
+
+-
+  lang: en # en, jp
+  type: journal
+  title: 'Value-utilized taint propagation: toward precise detection of apps’ information flows across Android API calls'
+  author:
+    - H. Inayoshi
+    - S. Kakei
+    - E. Takimoto
+    - K. Mouri
+    - S. Saito
+  journal: International Journal of Information Security
+  year: 2022
+  volume: 21
+  number: 5
+  page:
+    start: 1127
+    end: 1149
+
+-
+  lang: en # en, jp
+  type: proceedings
+  title: 'FirmPot: A Framework for Intelligent-Interaction Honeypots Using Firmware of IoT Devices'
+  author:
+    - M. Yamamoto
+    - S. Kakei
+    - S. Saito
+  journal: Proc. of The 8th International Workshop on Information and Communication Security (WICS 2021)
+  year: 2021
+  volume: 
+  number: 
+  page:
+    start: 405
+    end: 411
+
+-
+  lang: en # en, jp
+  type: proceedings
+  title: Simplifying Dynamic Public Key Certificate Graph for Certification Path Building in Distributed Public Key Infrastructure
+  author:
+    - S. Kakei
+    - Y. Shiraishi
+    - S. Saito
+  journal: Proc. of The 12th International Conference on ICT Convergence (ICTC 2021)
+  year: 2021
+  volume: 
+  number: 
+  page:
+    start: 545
+    end: 550
+
+-
+  lang: en # en, jp
+  type: proceedings
+  title: 'VTDroid: Value-based Tracking for Overcoming Anti-Taint-Analysis Techniques in Android Apps'
+  author:
+    - H. Inayoshi
+    - S. Kakei
+    - E. Takimoto
+    - K. Mouri
+    - S. Saito
+  journal: Proc. of The 16th International Conference on Availability, Reliability and Security (ARES2021)
+  year: 2021
+  volume: 
+  number: 
+  page:
+    start: 1
+    end: 6
+
+-
+  lang: en # en, jp
+  type: journal
+  title: 'Cross-Certification Towards Distributed Authentication Infrastructure: A Case of Hyperledger Fabric'
+  author:
+    - S. Kakei
+    - Y. Shiraishi
+    - M. Mohri
+    - T. Nakamura
+    - M. Hashimoto
+    - S. Saito
+  journal: IEEE Access
+  year: 2020
+  volume: 8
+  number: 
+  page:
+    start: 135742
+    end: 135757
+
+-
+  lang: en
+  type: proceedings
+  title: Prevention of Data Leakage due to Implicit Information Flows in Android Applications
+  author:
+    - H. Inayoshi
+    - S. Kakei
+    - E. Takimoto
+    - K. Mouri
+    - S. Saito
+  journal: Proc. of 14th Asia Joint Conference on Information Security (AsiaJCIS 2019)
+  year: 2019
+  volume: 
+  number: 
+  page:
+    start: 103
+    end: 110
+
+-
+  lang: en
+  type: proceedings
+  title: Designing Authentication and Authorization System with Blockchain
+  author:
+    - Y. Ezawa
+    - M. Takita
+    - Y. Shiraishi
+    - S. Kakei
+    - M. Hirotomo
+    - Y. Fukuta
+    - M. Mohri
+    - M. Morii
+  journal: Proc. of 14th Asia Joint Conference on Information Security (AsiaJCIS 2019)
+  year: 2019
+  volume: 
+  number: 
+  page:
+    start: 111
+    end: 118
+
+-
+  lang: en
+  type: journal
+  title: SSL Client Authentication with TPM
+  author:
+    - S. Kakei
+    - M. Mohri
+    - Y. Shiraishi
+    - M. Morii
+  journal: IEICE Transactions on Information and Systems
+  year: 2016
+  volume: E99.D
+  number: 4
+  page:
+    start: 1052
+    end: 1061
+
+-
+  lang: jp
+  type: journal
+  title: TPMを用いた順序認証システムのためのアプリケーションフレームワーク
+  author:
+    - 掛井将平
+    - 毛利公美
+    - 白石善明
+  journal: 電子情報通信学会論文誌D
+  year: 2014
+  volume: J97-D
+  number: 3
+  page:
+    start: 514
+    end: 522
+
+-
+  lang: jp
+  type: journal
+  title: TPMを用いたオフライン型タイムスタンプ
+  author:
+    - 掛井将平
+    - 脇田知彦
+    - 毛利公美
+    - 白石善明
+    - 野口亮司
+  journal: 情報処理学会論文誌
+  year: 2012
+  volume: 53
+  number: 9
+  page:
+    start: 2117
+    end: 2129
+
+-
+  lang: en
+  type: proceedings
+  title: 'Offline Time-Stamping System: Its Design and Implementation'
+  author:
+    - S. Kakei
+    - M. Mohri
+    - Y. Shiraishi
+    - R. Noguchi
+  journal: Proc. of 2012 IEEE International Conference on Control System, Computing and Engineering (ICCSCE 2012)
+  year: 2012
+  volume: 
+  number: 
+  page:
+    start: 404
+    end: 409
+
+-
+  lang: en
+  type: proceedings
+  title: Offline time-stamping using TPM and its Java library
+  author:
+    - S. Kakei
+    - M. Mohri
+    - Y. Shiraishi
+    - R. Noguchi
+  journal: Proc. of 2012 International Symposium on Computer Applications and Industrial Electronics (ISCAIE 2012)
+  year: 2012
+  volume: 
+  number: 
+  page:
+    start: 64
+    end: 69
+
+
