@@ -15,23 +15,6 @@
 -
   lang: en # en, jp
   type: journal
-  title: XXX XXX XXX
-  author:
-    - X. XXX
-    - X. XXX
-    - X. XXX
-    - X. XXX
-  journal: XXX and XXX XXX
-  year: 2000
-  volume: 1
-  number: 1
-  page:
-    start: 1
-    end: 6
-
--
-  lang: en # en, jp
-  type: journal
   title: Distributed Public Key Certificate-Issuing Infrastructure for Consortium Certificate Authority Using Distributed Ledger Technology
   author:
     - K. Kumagai
