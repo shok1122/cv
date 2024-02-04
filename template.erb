@@ -5,16 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV</title>
   <style>
+  body {
+    margin: 10%;
+  }
   </style>
 </head>
-<ol>
-<h2>査読付き学術論文</h2>
-<%- journal.each do |x| -%>
-  <li><%=get(x)%></li>
-<%- end -%>
-<h2>査読付き国際会議論文</h2>
-<%- proceedings.each do |x| -%>
-  <li><%=get(x)%></li>
-<%- end -%>
-</ol>
+<body>
+  <ol>
+  <h2>査読付き学術論文</h2>
+  <%- journal.each do |x| -%>
+    <li><%=get(x)%></li>
+  <%- end -%>
+  <h2>査読付き国際会議論文</h2>
+  <%- proceedings.each do |x| -%>
+    <li><%=get(x)%></li>
+  <%- end -%>
+  </ol>
+</body>
 </html>
