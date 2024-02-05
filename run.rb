@@ -14,17 +14,18 @@ class Biblio
     @year = _data['year']
     @volume = _data['volume']
     @number = _data['number']
-    @page = _data['page']
+    @page = (_data['page']['start'].nil? || _data['page']['start'].nil?) ? nil : _data['page']
+    @tba = (_data['tba'].nil? || _data['tba'] == false) ? false : true
 
     @name = _name
   end
 
   def biblio()
-    return "#{author}#{title}#{journal}#{volume}#{number}#{page}#{year}."
+    return "#{author}#{title}#{journal}#{volume}#{number}#{page}#{year}. #{tba}".strip
   end
 
   def title()
-    return ", #{@@LQUOTE}#{@title}#{@@RQUOTE}"
+    return @title.nil? ? "" : ", #{@@LQUOTE}#{@title}#{@@RQUOTE}"
   end
 
   def author()
@@ -32,16 +33,8 @@ class Biblio
     return @author.join(", ")
   end
 
-  def page(_x)
-    if _x.nil?
-      return ""
-    else
-      return ", pp. #{_x["start"]}–#{_x["end"]}"
-    end
-  end
-
   def journal()
-    return ", #{@journal}"
+    return @journal.nil? ? "" : ", #{@journal}"
   end
 
   def volume()
@@ -53,14 +46,16 @@ class Biblio
   end
 
   def page()
-    return "" if @page.nil?
-    return ", pp. #{@page["start"]}#{@@ENDASH}#{@page["end"]}"
+    return @page.nil? ? "" : ", pp. #{@page["start"]}#{@@ENDASH}#{@page["end"]}"
   end
 
   def year()
-    return ", #{@year}"
+    return @year.nil? ? "" : ", #{@year}"
   end
 
+  def tba()
+    return (@tba == true) ? "(To be appeared)" : ""
+  end
 
 end
 
@@ -108,8 +103,9 @@ class XXX
   def main()
     publication = YAML.load_file('./publication.yaml')
 
-    journal = publication.find_all { |v| v['type'] == "journal" }
-    proceedings = publication.find_all { |v| v['type'] == "proceedings" }
+    journal = publication.find_all { |v| v['type'] == "journal" }.sort{|x| x['year']}.reverse
+    proceedings = publication.find_all { |v| v['type'] == "proceedings" }.sort{|x| x['year']}.reverse
+    proceedings_jp = publication.find_all { |v| v['type'] == "proceedings_jp" }.sort{|x| x['year']}.reverse
 
     File.open('./template.erb') do |f|
       text = ERB.new(f.read, trim_mode: '%-').result(binding)
