@@ -13,6 +13,44 @@
 #    end:
 
 -
+  lang: jp # en, jp
+  type: journal
+  title: クラウドストレージのデータ所有証明に基づくデータ異常の発生主体の特定
+  author:
+    - 廣友雅徳
+    - 瀧田愼
+    - 嘉戸裕一
+    - 掛井将平
+    - 白石善明
+    - 毛利公美
+    - 森井昌克
+  journal: 
+  year: 2024
+  volume: 
+  number: 
+  page:
+    start: 
+    end: 
+  tba: true
+
+-
+  lang: en # en, jp
+  type: journal
+  title: Design of Enclosing Signing Keys by All Issuers in Distributed Public Key Certificate-Issuing Infrastructure
+  author:
+    - S. Kakei
+    - H. Seko
+    - Y. Shiraishi
+    - S. Saito
+  journal: IEICE TRANSACTIONS on Information and Systems
+  year: 2023
+  volume: E106.D
+  number: 9
+  page:
+    start: 1495
+    end: 1498
+
+-
   lang: en # en, jp
   type: journal
   title: Distributed Public Key Certificate-Issuing Infrastructure for Consortium Certificate Authority Using Distributed Ledger Technology
@@ -321,5 +359,589 @@
   page:
     start: 64
     end: 69
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: Webシステムの開発者と運用者が協働するログベースの連合学習フレームワーク
+  author:
+    - 巻砂湧也
+    - 掛井将平
+    - 徳田祥太
+    - 齋藤彰一
+  journal: 2024年暗号と情報セキュリティシンポジウム（SCIS2024）予稿集
+  year: 2024
+  volume: 
+  number: 
+  page: 
+    start:
+    end:
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: ファジングによるメモリアクセスの重複に着目したベアメタルファームウェア向け細粒度メモリ破壊検知手法
+  author:
+    - 舟橋和哉
+    - 掛井将平
+    - 齋藤彰一 
+  journal: 2024年暗号と情報セキュリティシンポジウム（SCIS2024）予稿集
+  year: 2024
+  volume: 
+  number: 
+  page: 
+    start:
+    end:
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: 非中央集権型データ連携の機密性向上のためのTEEと分散台帳技術を活用したデータ利用制御の提案
+  author:
+    - 徳田祥太
+    - 掛井将平
+    - 白石善明
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2023（CSS2023）予稿集
+  year: 2023
+  volume: 
+  number: 
+  page: 
+    start:
+    end:
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: 組み込み用ファームウェアのコンコリック実行におけるパス探索戦略切り替えの有効性調査
+  author:
+    - 松浦央人
+    - 掛井将平
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2023（CSS2023）予稿集
+  year: 2023
+  volume: 
+  number: 
+  page: 
+    start:
+    end:
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: CGIバイナリ向けシンボリック実行を用いたIoTファームウェアエミュレータの提案と基礎調査
+  author:
+    - 川西晶大
+    - 掛井将平
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2023（CSS2023）予稿集
+  year: 2023
+  volume: 
+  number: 
+  page: 
+    start:
+    end:
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: Androidアプリ向けSDKのガイダンスと実動作間の不一致の半自動検知
+  author:
+    - 稲吉弘樹
+    - 掛井将平
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2023（CSS2023）予稿集
+  year: 2023
+  volume: 
+  number: 
+  page: 
+    start:
+    end:
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: ブロックチェーンを用いたクラウドストレージのプライベートな完全性検証方式
+  author:
+    - 嘉戸裕一
+    - 廣友雅徳
+    - 瀧田愼
+    - 掛井将平
+    - 白石善明
+    - 毛利公美
+    - 森井昌克
+  journal: コンピュータセキュリティシンポジウム2023（CSS2023）予稿集
+  year: 2023
+  volume: 
+  number: 
+  page: 
+    start:
+    end:
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: 検証可能なデータ利用ポリシーに基づくIntel SGXを用いた非中央集権型データ連携システムの提案
+  author:
+    - 徳田祥太
+    - 掛井将平
+    - 齋藤彰一
+  journal: 研究報告コンピュータセキュリティ（CSEC）
+  year: 2023
+  volume: 2023-CSEC-101
+  number: 17
+  page: 
+    start: 1
+    end: 8
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: 旧バージョンAndroidの利用におけるハードウェアIDの収集に関する調査
+  author:
+    - 稲吉弘樹
+    - 掛井将平
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2022（CSS2022）予稿集
+  year: 2022
+  volume: 
+  number: 
+  page: 
+    start:
+    end:
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: Androidアプリケーションの例外処理によるリークの制約の演算
+  author:
+    - 大西導徳
+    - 稲吉弘樹
+    - 掛井将平
+    - 齋藤彰一
+  journal: 研究報告コンピュータセキュリティ（CSEC）
+  year: 2022
+  volume: 2022-CSEC-98
+  number: 13
+  page: 
+    start: 1
+    end: 8
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: Androidアプリケーションのテイント解析における例外処理を考慮した制約の精度の向上
+  author:
+    - 大西導徳
+    - 稲吉弘樹
+    - 掛井将平
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2021（CSS2021）予稿集
+  year: 2021
+  volume: 
+  number: 
+  page: 
+    start:
+    end:
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: IoT機器のWebUIを模したハニーポットの自動生成フレームワーク
+  author:
+    - 山本萌花
+    - 掛井将平
+    - 齋藤彰一
+  journal: 研究報告コンピュータセキュリティ（CSEC）
+  year: 2021
+  volume: 2021-CSEC-094
+  number: 2
+  page: 
+    start: 1
+    end: 8
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: コンピュータセキュリティシンポジウムCSS2020開催報告～オンライン化を支えたシステムとUX～
+  author:
+    - 白石善明
+    - 掛井将平
+    - 瀧田愼
+    - 磯部光平
+    - 田宮寛人
+    - 毛利公美
+    - 箕浦翔悟
+    - 冨田裕涼
+    - 古本啓祐
+    - 廣友雅徳
+    - 福田洋治
+    - 池上雅人
+    - 甲斐博
+    - 曽根直人
+    - 森井昌克
+  journal: 研究報告コンピュータセキュリティ（CSEC）
+  year: 2021
+  volume: 2021-CSEC-094
+  number: 3
+  page: 
+    start: 1
+    end: 8
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: 分散型台帳への秘密鍵の封入による協同運用可能な公開鍵証明書発行基盤の検討
+  author:
+    - 熊谷圭太
+    - 掛井将平
+    - 白石善明
+    - 齋藤彰一
+  journal: マルチメディア，分散協調とモバイルシンポジウム2021（DICOMO2021）予稿集
+  year: 2021
+  volume: 
+  number: 
+  page: 
+    start: 165
+    end: 172
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: オンライン投票システムの投票者インタフェースのためのWeb API
+  author:
+    - 東知哉
+    - 白石善明
+    - 掛井将平
+    - 毛利公美
+    - 森井昌克
+  journal: マルチメディア，分散協調とモバイルシンポジウム2021（DICOMO2021）予稿集
+  year: 2021
+  volume: 
+  number: 
+  page: 
+    start:
+    end:
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: ロジックボム検知における疑わしい条件の絞り込み手法
+  author:
+    - 本居千佳
+    - 掛井将平
+    - 齋藤彰一
+  journal: 2021年電子情報通信学会総合大会予稿集
+  year: 2021
+  volume: 
+  number: 
+  page: 
+    start:
+    end:
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: Androidアプリケーションにおける操作可能な画面要素とパーミッションの関係の調査
+  author:
+    - 宇野文人
+    - 掛井将平
+    - 齋藤彰一
+  journal: 2021年電子情報通信学会総合大会予稿集
+  year: 2021
+  volume: 
+  number: 
+  page: 
+    start:
+    end:
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: ファームウェアの挙動を事前収集するIoTハニーポットの提案および基礎調査
+  author:
+    - 山本萌花
+    - 掛井将平
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2020（CSS2020）予稿集
+  year: 2020
+  volume: 
+  number: 
+  page: 
+    start:
+    end:
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: User-Managed Accessに基づくクロスドメイン認可フレームワーク
+  author:
+    - 江澤友基
+    - 掛井将平
+    - 白石善明
+    - 瀧田愼
+    - 毛利公美
+    - 森井昌克
+  journal: コンピュータセキュリティシンポジウム2020（CSS2020）予稿集
+  year: 2020
+  volume: 
+  number: 
+  page: 
+    start:
+    end:
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: IoTデバイス向けの制御フローベース遠隔認証手法の軽量化の検討
+  author:
+    - 吉野貴史
+    - 掛井将平
+    - 瀧本栄二
+    - 毛利公一
+    - 齋藤彰一
+  journal: 研究報告コンピュータセキュリティ（CSEC）
+  year: 2020
+  volume: 2020-CSEC-88
+  number: 49
+  page: 
+    start: 1
+    end: 8
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: Web of Thingsを利用したTrigger-Action Programming環境における不適切なルール実行の防止手法の検討
+  author:
+    - 村上恒
+    - 掛井将平
+    - 齋藤彰一
+  journal: 研究報告コンピュータセキュリティ（CSEC）
+  year: 2020
+  volume: 2020-CSEC-88
+  number: 49
+  page: 
+    start: 1
+    end: 8
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: ブロックチェーンを用いたユーザ中心の認可プロトコルの一実装～User-Managed AccessのHyperledger Fabricによる実装～
+  author:
+    - 江澤友基
+    - 掛井将平
+    - 白石善明
+    - 瀧田愼
+    - 毛利公美
+    - 森井昌克
+  journal: 信学技報
+  year: 2020
+  volume: 119
+  number:  437
+  page: 
+    start: 307
+    end: 312
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: IoTゲートウェイで動作するコンテナの異常検知手法の提案
+  author:
+    - 西村賢太
+    - 山本萌花
+    - 掛井将平
+    - 瀧本栄二
+    - 毛利公一
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2019（CSS2019）論文集
+  year: 2019
+  volume: 
+  number: 
+  page: 
+    start: 136
+    end: 143
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: コンパイラ最適化がテイント解析に与える影響と解析性能向上
+  author:
+    - 林優香
+    - 稲吉弘樹
+    - 掛井将平
+    - 瀧本栄二
+    - 毛利公一
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2019（CSS2019）論文集
+  year: 2019
+  volume: 
+  number: 
+  page: 
+    start: 990
+    end: 997
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: TrustZoneを利用した安全なメモリ操作によるプロセス状態確認手法
+  author:
+    - 青木和也
+    - 掛井将平
+    - 瀧本栄二
+    - 毛利公一
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2019（CSS2019）論文集
+  year: 2019
+  volume: 
+  number: 
+  page: 
+    start: 597
+    end: 604
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title:  分散型認証基盤に向けたスマートコントラクトを用いた相互認証方式の提案
+  author:
+    - 掛井将平
+    - 白石善明
+    - 毛利公美
+    - 中村徹
+    - 橋本真幸
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2019（CSS2019）論文集
+  year: 2019
+  volume: 
+  number: 
+  page: 
+    start: 539
+    end: 546
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: TPMのAIK証明書と関連付く公開鍵証明書の発行について
+  author:
+    - 松田育也
+    - 福田洋治
+    - 廣本雅徳
+    - 毛利公美
+    - 掛井将平
+    - 白石善明
+  journal: 第81回全国大会講演予稿集
+  year: 2019
+  volume: 
+  number: 
+  page: 
+    start: 479
+    end: 480
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: OpenIDで認証情報を発行するブロックチェーンを用いた認証・認可システム
+  author:
+    - 江澤友基
+    - 掛井将平
+    - 瀧田愼
+    - 白石善明
+    - 髙野泰洋
+    - 毛利公美
+    - 森井昌克
+  journal: 信学技報
+  year: 2018
+  volume: 118
+  number: 315
+  page: 
+    start: 39
+    end: 44
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: 匿名性を考慮したTPMを用いるSSLクライアント認証
+  author:
+    - 掛井将平
+    - 白石善明
+    - 毛利公美
+    - 森井昌克
+  journal: 信学技報
+  year: 2018
+  volume: 118
+  number: 315
+  page: 
+    start: 79
+    end: 84
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: TPMを用いたVirtual Monotonic Counterの階層型接続による順序認証システムとJavaによるライブラリ
+  author:
+    - 掛井将平
+    - 毛利公美
+    - 白石善明
+    - 野口亮司
+  journal: 第75回全国大会講演予稿集
+  year: 2013
+  volume: 
+  number: 
+  page: 
+    start: 595
+    end: 596
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: TPMを用いたVirtual Monotonic Counterの階層型接続による順序認証方式
+  author:
+    - 掛井将平
+    - 毛利公美
+    - 白石善明
+    - 野口亮司
+  journal: 2013年暗号と情報セキュリティシンポジウム（SCIS2013）予稿集
+  year: 2013
+  volume: 
+  number: 
+  page: 
+    start:
+    end:
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: 階層型タイムスタンプサービスとTPMによる時刻保証方式
+  author:
+    - 掛井将平
+    - 脇田知彦
+    - 毛利公美
+    - 白石善明
+    - 野口亮司
+  journal: マルチメディア，分散協調とモバイルシンポジウム2011（DICOMO2011）予稿集
+  year: 2011
+  volume: 
+  number: 
+  page: 
+    start: 1002
+    end: 1015
+
+-
+  lang: jp # en, jp
+  type: proceedings_jp # journal
+  title: オフライン型タイムスタンプシステムのためのJavaによるライブラリ
+  author:
+    - 掛井将平
+    - 脇田知彦
+    - 毛利公美
+    - 白石善明
+    - 野口亮司
+  journal: 第74回全国大会講演予稿集
+  year: 2012
+  volume: 
+  number: 
+  page: 
+    start: 619
+    end: 620
 
 

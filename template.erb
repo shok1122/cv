@@ -7,7 +7,7 @@
   <style>
   body {
     margin: 10%;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-family: Times New Roman;
   }
   ol li {
@@ -17,14 +17,18 @@
 </head>
 <body>
   <ol>
-  <h2>査読付き論文誌論文</h2>
-  <%- journal.each do |x| -%>
-    <li><%=make_biblio(x)%></li>
-  <%- end -%>
-  <h2>査読付き国際会議論文</h2>
-  <%- proceedings.each do |x| -%>
-    <li><%=make_biblio(x)%></li>
-  <%- end -%>
+    <h2>査読付き論文誌論文</h2>
+    <%- journal.each do |x| -%>
+      <li><%=make_biblio(x)%></li>
+    <%- end -%>
+    <h2>査読付き国際会議論文</h2>
+    <%- proceedings.each do |x| -%>
+      <li><%=make_biblio(x)%></li>
+    <%- end -%>
+    <h2>国内会議論文（査読無）</h2>
+    <%- proceedings_jp.each do |x| -%>
+      <li><%=make_biblio(x)%></li>
+    <%- end -%>
   </ol>
 </body>
 </html>
