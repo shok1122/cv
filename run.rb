@@ -1,12 +1,38 @@
 require 'erb'
 require 'yaml'
 
-class XXX
+class Biblio
+  @@LQUOTE = '&ldquo;'
+  @@RQUOTE = '&rdquo;'
+  @@ENDASH = '&ndash;'
 
-  def initialize()
+  def initialize(_data, _name)
+    @data = _data
+    @title = _data['title']
+    @author = _data['author']
+    @journal = _data['journal']
+    @year = _data['year']
+    @volume = _data['volume']
+    @number = _data['number']
+    @page = _data['page']
+
+    @name = _name
   end
 
-  def get_page(_x)
+  def biblio()
+    return "#{author}#{title}#{journal}#{volume}#{number}#{page}#{year}."
+  end
+
+  def title()
+    return ", #{@@LQUOTE}#{@title}#{@@LQUOTE}"
+  end
+
+  def author()
+    @author.map!{ |x| (x == @name) ? "<u>#{x}</u>" : x }
+    return @author.join(", ")
+  end
+
+  def page(_x)
     if _x.nil?
       return ""
     else
@@ -14,55 +40,68 @@ class XXX
     end
   end
 
-  def get_name_jp(_authors)
-    _authors.map!{ |x| (x == "掛井将平") ? "<u>#{x}</u>" : x }
-    return _authors.join(", ")
+  def journal()
+    return ", #{@journal}"
   end
 
-  def get_jp(_x)
-    author = get_name_jp(_x['author'])
-    title = ", \"#{_x['title']}\""
-    journal = ", #{_x['journal']}"
-    volume = _x['volume'].nil? ? "" : ", vol. #{_x['volume']}"
-    number = _x['number'].nil? ? "" : ", no. #{_x['number']}"
-    page = get_page(_x['page'])
-    year = ", #{_x['year']}"
-    return "#{author}#{title}#{journal}#{volume}#{number}#{page}#{year}."
+  def volume()
+    return @volume.nil? ? "" : ", vol. #{@volume}"
   end
 
-  def get_name_en(_authors)
-    _authors.map!{ |x| (x == "S. Kakei") ? "<u>#{x}</u>" : x }
+  def number()
+    return @number.nil? ? "" : ", no. #{@number}"
+  end
 
-    if _authors.length > 2
-      authors = _authors[0..-2].join(', ') + ", and #{_authors[-1]}"
-    elsif _authors.length == 2
-      authors = "#{_authors[0]} and #{_authors[1]}"
-    elsif _authors.length == 1
-      authors = "#{_authors[0]}"
+  def page()
+    return "" if @page.nil?
+    return ", pp. #{@page["start"]}#{@@ENDASH}#{@page["end"]}"
+  end
+
+  def year()
+    return ", #{@year}"
+  end
+
+
+end
+
+class BiblioEn < Biblio
+  def initialize(_data)
+    super(_data, 'S. Kakei')
+  end
+
+  def author()
+    authors = ""
+    @author.map!{ |x| (x == @name) ? "<u>#{x}</u>" : x }
+    if @author.length > 2
+      authors = @author[0..-2].join(', ') + ", and #{@author[-1]}"
+    elsif @author.length == 2
+      authors = "#{@author[0]} and #{@author[1]}"
+    elsif @author.length == 1
+      authors = "#{@author[0]}"
     end
-
     return authors
   end
 
-  def get_en(_x)
-    author = get_name_en(_x['author'])
-    title =   ", \"#{_x['title']}\""
-    journal = ", in <i> #{_x['journal']}</i>"
-    volume = _x['volume'].nil? ? "" : ", vol. #{_x['volume']}"
-    number = _x['number'].nil? ? "" : ", no. #{_x['number']}"
-    page = get_page(_x['page'])
-    year = ", #{_x['year']}"
-    return "#{author}#{title}#{journal}#{volume}#{number}#{page}#{year}."
+  def journal()
+    return ", in <i>#{@journal}</i>"
   end
+end
 
-  def get(_x)
+class BiblioJp < Biblio
+  def initialize(_data)
+    super(_data, '掛井将平')
+  end
+end
+
+class XXX
+  def make_biblio(_x)
     case _x['lang']
     when 'en' then
-      get_en(_x)
+      this = BiblioEn.new(_x)
+      return this.biblio()
     when 'jp' then
-      get_jp(_x)
-    else
-      return "lang field is null."
+      this = BiblioJp.new(_x)
+      return this.biblio()
     end
   end
 
@@ -78,6 +117,8 @@ class XXX
     end
   end
 end
+
+## Entrypoint ##
 
 this = XXX.new
 this.main()
