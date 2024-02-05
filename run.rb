@@ -24,7 +24,7 @@ class Biblio
   end
 
   def title()
-    return ", #{@@LQUOTE}#{@title}#{@@LQUOTE}"
+    return ", #{@@LQUOTE}#{@title}#{@@RQUOTE}"
   end
 
   def author()
