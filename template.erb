@@ -16,6 +16,19 @@
   </style>
 </head>
 <body>
+  <ul>
+    <h2>競争的研究資金</h2>
+    <h3>研究代表者</h3>
+    <%- funding_principal.each do |x| -%>
+      <li><%=make_biblio_funding(x)%></li>
+    <%- end -%>
+    <!--
+    <h3>研究分担者</h3>
+    <%- funding_collaborator.each do |x| -%>
+      <li><%=make_biblio_funding(x)%></li>
+    <%- end -%>
+    -->
+  </ul>
   <ol>
     <h2>査読付き論文誌論文</h2>
     <%- journal.each do |x| -%>

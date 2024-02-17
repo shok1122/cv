@@ -1,3 +1,4 @@
+require 'date'
 require 'erb'
 require 'yaml'
 
@@ -200,13 +201,42 @@ class BiblioPaperJp < BiblioPaper
   end
 end
 
-class XXX
-  def factory(_data)
-    return Biblio::factory(_data)
+class BiblioFunding
+  def initialize(_data)
+    @title = _data['title']
+    @role = _data['role']
+    @year = (_data['year']['start'].nil? || _data['year']['start'].nil?) ? nil : _data['year']
+    @category = _data['category']
+    @fund = _data['fund']
+    @number = _data['number']
+    @institution = _data['institution']
+    @url = _data['url']
   end
 
+  def biblio()
+    return "#{title}<br>#{@institution}：#{@fund}　#{@category}（#{@number}）<br>#{year}".strip
+  end
+
+  def title()
+    return "<a href=#{@url} target=\"_blank\">#{@title}</a>"
+  end
+
+  def year()
+    note = Date.today < Date.parse(@year['end']) ? "（予定）" : ""
+    return @year.nil? ? "" : "研究期間：#{@year['start']} &ndash; #{@year['end']}#{note}"
+  end
+
+end
+
+class XXX
+
   def make_biblio(_x)
-    this = factory(_x)
+    this = Biblio::factory(_x)
+    return this.biblio()
+  end
+
+  def make_biblio_funding(_x)
+    this = BiblioFunding.new(_x)
     return this.biblio()
   end
 
@@ -221,6 +251,10 @@ class XXX
     poster = presentation.find_all { |v| v['type'] == 'poster' }.sort{ |x| x['year']}.reverse
     oral = presentation.find_all { |v| v['type'] == 'oral' }.sort{ |x| x['year']}.reverse
     speech = presentation.find_all { |v| v['type'] == 'speech' }.sort{ |x| x['year']}.reverse
+
+    funding = YAML.load_file('./funding.yaml')
+    funding_principal = funding.find_all { |v| v['role'] == 'principal' }
+    funding_collaborator = funding.find_all { |v| v['role'] == 'collaborator' }
 
     File.open('./template.erb') do |f|
       text = ERB.new(f.read, trim_mode: '%-').result(binding)

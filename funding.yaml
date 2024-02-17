@@ -1,0 +1,33 @@
+#-
+#  lang: # en, jp
+#  title: 
+#  role:
+#  year: 
+#    start:
+#    end:
+
+-
+  lang: jp
+  title: 'データ提供者・利用者の相互信頼に基づく分散型データ連携フレームワークの開発'
+  role: principal
+  year:
+    start: '2022-04-01'
+    end: '2025-03-31'
+  category: 若手研究
+  number: 22K17881
+  fund: 学術研究助成基金助成金
+  institution: 日本学術振興会
+  url: 'https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-22K17881/'
+
+-
+  lang: jp
+  title: '分散台帳技術によるメタPKIの構築'
+  role: principal
+  year:
+    start: '2019-08-31'
+    end: '2021-03-31'
+  category: 研究活動スタート支援
+  number: 19K24342
+  fund: 学術研究助成基金助成金
+  institution: 日本学術振興会
+  url: 'https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-19K24342/'
