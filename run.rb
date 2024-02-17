@@ -136,6 +136,7 @@ class BiblioPaper < Biblio
     @volume = _data['volume']
     @number = _data['number']
     @page = (_data['page']['start'].nil? || _data['page']['start'].nil?) ? nil : _data['page']
+    @doi = _data['doi']
 
     super(_data, _name)
   end
@@ -150,7 +151,7 @@ class BiblioPaper < Biblio
   end
 
   def biblio()
-    return "#{author}#{title}#{journal}#{volume}#{number}#{page}#{year}. #{tba}".strip
+    return "#{author}#{title}#{journal}#{volume}#{number}#{page}#{year}. #{tba}#{doi}".strip
   end
 
   def journal()
@@ -167,6 +168,10 @@ class BiblioPaper < Biblio
 
   def page()
     return @page.nil? ? "" : ", pp. #{@page["start"]}#{@@ENDASH}#{@page["end"]}"
+  end
+
+  def doi()
+    return @doi.nil? ? "" : " <a href=#{@doi} target=\"_blank\">#{@doi}</a>"
   end
 
 end

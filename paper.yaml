@@ -11,6 +11,7 @@
 #  page: 
 #    start:
 #    end:
+#  doi:
 
 -
   lang: jp # en, jp
@@ -49,6 +50,7 @@
   page:
     start: 1495
     end: 1498
+  doi: 'https://doi.org/10.1587/transinf.2022OFL0001'
 
 -
   lang: en # en, jp
@@ -66,6 +68,7 @@
   page:
     start: 1
     end: 20
+  doi: 'https://doi.org/10.1155/2023/9559439'
 
 -
   lang: en # en, jp
@@ -82,6 +85,7 @@
   page:
     start: 10730
     end: 10750
+  doi: 'https://doi.org/10.1109/ACCESS.2023.3240724'
 
 -
   lang: en # en, jp
@@ -100,6 +104,7 @@
   page:
     start: 1
     end: 15
+  doi: 'https://doi.org/10.1016/j.bcra.2023.100126'
 
 -
   lang: en # en, jp
@@ -148,6 +153,7 @@
   page:
     start: 1499
     end: 1511
+  doi: 'https://doi.org/10.20729/00220095'
 
 -
   lang: en # en, jp
@@ -166,6 +172,7 @@
   page:
     start: 1127
     end: 1149
+  doi: 'https://doi.org/10.1007/s10207-022-00603-9'
 
 -
   lang: en # en, jp
@@ -250,6 +257,7 @@
   page:
     start: 135742
     end: 135757
+  doi: 'https://doi.org/10.1109/ACCESS.2020.3011137'
 
 -
   lang: en
@@ -306,6 +314,7 @@
   page:
     start: 1052
     end: 1061
+  doi: 'https://doi.org/10.1587/transinf.2015CYP0012'
 
 -
   lang: jp
