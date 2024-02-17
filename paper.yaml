@@ -218,6 +218,21 @@
     end: 6
 
 -
+  lang: jp # en, jp
+  type: article
+  title: 'ブロックチェーンの合意形成アルゴリズム'
+  author:
+    - 白石善明
+    - 掛井将平
+  journal: 通信ソサエティマガジン
+  year: 2020
+  volume: 14
+  number: 1
+  page:
+    start: 19
+    end: 25
+
+-
   lang: en # en, jp
   type: journal
   title: 'Cross-Certification Towards Distributed Authentication Infrastructure: A Case of Hyperledger Fabric'

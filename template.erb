@@ -29,8 +29,20 @@
     <%- proceedings_jp.each do |x| -%>
       <li><%=make_biblio(x)%></li>
     <%- end -%>
-    <h2>ポスター発表（査読無）</h2>
+    <h2>口頭発表</h2>
+    <%- oral.each do |x| -%>
+      <li><%=make_biblio(x)%></li>
+    <%- end -%>
+    <h2>ポスター発表</h2>
     <%- poster.each do |x| -%>
+      <li><%=make_biblio(x)%></li>
+    <%- end -%>
+    <h2>招待講演</h2>
+    <%- speech.each do |x| -%>
+      <li><%=make_biblio(x)%></li>
+    <%- end -%>
+    <h2>解説記事</h2>
+    <%- article.each do |x| -%>
       <li><%=make_biblio(x)%></li>
     <%- end -%>
   </ol>

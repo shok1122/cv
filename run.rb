@@ -21,10 +21,12 @@ class Biblio
   def self.factory(_data)
     type = _data['type']
     case type
-    when 'journal', 'proceedings', 'proceedings_jp' then
+    when 'journal', 'proceedings', 'proceedings_jp', 'article' then
       return BiblioPaper::factory(_data)
-    when 'poster' then
+    when 'poster', 'oral', 'speech' then
       return BiblioPresentation::factory(_data)
+    else
+      puts "Undefined type: #{type}"
     end
   end
 
@@ -208,9 +210,12 @@ class XXX
     journal = paper.find_all { |v| v['type'] == "journal" }.sort{|x| x['year']}.reverse
     proceedings = paper.find_all { |v| v['type'] == "proceedings" }.sort{|x| x['year']}.reverse
     proceedings_jp = paper.find_all { |v| v['type'] == "proceedings_jp" }.sort{|x| x['year']}.reverse
+    article = paper.find_all { |v| v['type'] == "article" }.sort{|x| x['year']}.reverse
 
     presentation = YAML.load_file('./presentation.yaml')
     poster = presentation.find_all { |v| v['type'] == 'poster' }.sort{ |x| x['year']}.reverse
+    oral = presentation.find_all { |v| v['type'] == 'oral' }.sort{ |x| x['year']}.reverse
+    speech = presentation.find_all { |v| v['type'] == 'speech' }.sort{ |x| x['year']}.reverse
 
     File.open('./template.erb') do |f|
       text = ERB.new(f.read, trim_mode: '%-').result(binding)

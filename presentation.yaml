@@ -1,12 +1,12 @@
 #-
 #  lang: # en, jp
-#  type: # poster
+#  type: # poster, oral, speech
 #  title: 
 #  author:
 #    - 
+#  year: 
 #  conference: 
 #  number:
-#  year: 
 #  city:
 #  country:
 
@@ -23,6 +23,27 @@
   conference: The 18th International Workshop on Security (IWSEC2023)
   city: Yokohama
   country: Japan
+
+-
+  lang: en
+  type: oral
+  title: 'Distributed Ledger Technology for Authentication and Authorization: Meta-PKI and Cross-Domain Authorization'
+  author:
+    - S. Kakei
+  year: 2023
+  conference: International Collaborative Symposium for Informatics (ICSI2022)
+  country: Australia
+
+-
+  lang: en
+  type: speech
+  title: 'Distributed Ledger Technology for Authentication and Authorization: Meta-PKI and Cross-Domain Authorization'
+  author:
+    - S. Kakei
+    - Y. Shiraishi
+  year: 2022
+  conference: Machine Learning and Blockchain Technology (MLBT2022)
+  country: Virtual
 
 -
   lang: jp
