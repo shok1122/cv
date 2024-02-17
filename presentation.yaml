@@ -1,0 +1,57 @@
+#-
+#  lang: # en, jp
+#  type: # poster
+#  title: 
+#  author:
+#    - 
+#  conference: 
+#  number:
+#  year: 
+#  city:
+#  country:
+
+-
+  lang: en
+  type: poster
+  title: 'Leveraging Trusted Execution Environment and Distributed Ledger Technology for Data Usage Control: Towards Confidential Data Integration'
+  author:
+    - S. Tokuda
+    - S. Kakei
+    - Y. Shiraishi
+    - S. Saito
+  year: 2023
+  conference: The 18th International Workshop on Security (IWSEC2023)
+  city: Yokohama
+  country: Japan
+
+-
+  lang: jp
+  type: poster
+  title: '暗黙的フローに対応したAndroidアプリケーションの動的テイント解析システム'
+  author:
+    - 稲吉弘樹
+    - 掛井将平
+    - 瀧本栄二
+    - 毛利公一
+    - 齋藤彰一
+  year: 2019
+  conference: コンピュータセキュリティシンポジウム2019（CSS2019）
+  number: DPS-12
+  city: 佐世保
+
+-
+  lang: jp
+  type: poster
+  title: 'The Concept of Meta-PKI: A Decentralized Trust Model Using Smart Contract for Internet of Things'
+  author:
+    - S. Kakei
+    - Y. Shiraishi
+    - M. Mohri
+    - T. Nakamura
+    - M. Hashimoto
+    - H. Yokoyama
+    - S. Saito
+  year: 2019
+  conference: The 14th Asia Joint Conference on Information Security (AsiaJCIS2019)
+  city: Kobe
+  country: Japan

@@ -29,6 +29,10 @@
     <%- proceedings_jp.each do |x| -%>
       <li><%=make_biblio(x)%></li>
     <%- end -%>
+    <h2>ポスター発表（査読無）</h2>
+    <%- poster.each do |x| -%>
+      <li><%=make_biblio(x)%></li>
+    <%- end -%>
   </ol>
 </body>
 </html>
