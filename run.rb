@@ -2,6 +2,36 @@ require 'date'
 require 'erb'
 require 'yaml'
 
+class Career
+  def initialize(_data)
+    @data = _data
+    @title = _data['title']
+    @period = _data['period']
+  end
+
+  def biblio()
+    return "<td>#{period}</td><td>#{@title}</td>"
+  end
+
+  def convert(_x)
+    return nil if _x.nil?
+    return "#{_x['year']}年#{_x['month']}月"
+  end
+
+  def period()
+    s = convert(@period['start'])
+    e = convert(@period['end'])
+
+    if !s.nil? && !e.nil?
+      return "#{s} &ndash; #{e}"
+    elsif !s.nil?
+      return "#{s} &ndash; 現在"
+    elsif !e.nil?
+      return "#{e}"
+    end
+  end
+end
+
 class Biblio
   @@LQUOTE = '&ldquo;'
   @@RQUOTE = '&rdquo;'
@@ -240,6 +270,11 @@ class XXX
     return this.biblio()
   end
 
+  def make_biblio_career(_x)
+    this = Career.new(_x)
+    return this.biblio()
+  end
+
   def main()
     paper = YAML.load_file('./paper.yaml')
     journal = paper.find_all { |v| v['type'] == "journal" }.sort{|x| x['year']}.reverse
@@ -255,6 +290,10 @@ class XXX
     funding = YAML.load_file('./funding.yaml')
     funding_principal = funding.find_all { |v| v['role'] == 'principal' }
     funding_collaborator = funding.find_all { |v| v['role'] == 'collaborator' }
+
+    career = YAML.load_file('./career.yaml')
+    career_education = career['education']
+    career_work = career['work']
 
     File.open('./template.erb') do |f|
       text = ERB.new(f.read, trim_mode: '%-').result(binding)

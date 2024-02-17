@@ -1,0 +1,55 @@
+education:
+  -
+    period:
+      start:
+        year: 2007
+        month: 4
+      end:
+        year: 2011
+        month: 3
+    title: '岐阜大学 工学部 応用情報学科'
+  -
+    period:
+      start:
+        year: 2011
+        month: 4
+      end:
+        year: 2013
+        month: 3
+    title: '岐阜大学大学院 工学研究科 応用情報学専攻 博士前期課程'
+  -
+    period:
+      start:
+        year: 2012
+        month: 4
+      end:
+        year: 2013
+        month: 3
+    title: '名古屋工業大学大学院 博士前期課程 特別研究学生'
+  -
+    period:
+      start:
+        year: 2014
+        month: 4
+      end:
+        year: 2019
+        month: 3
+    title: '神戸大学大学院 工学研究科 電気電子工学専攻 博士後期課程'
+
+work:
+  -
+    period:
+      start:
+        year: 2013
+        month: 4
+      end:
+        year: 2019
+        month: 3
+    title: 'セコム株式会社 技術開発本部 開発センター'
+  -
+    period:
+      start:
+        year: 2019
+        month: 4
+    title: '名古屋工業大学大学院 工学研究科 工学専攻 助教'
+
