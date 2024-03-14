@@ -36,7 +36,7 @@
 
 -
   lang: jp # en, jp
-  type: proceedings
+  type: proceedings_jp
   title: Microsoft Defender for Endpointを用いたOS更新状況可視化システムの構築
   author:
     - 掛井将平
