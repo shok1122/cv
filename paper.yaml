@@ -35,6 +35,21 @@
   tba: true
 
 -
+  lang: jp # en, jp
+  type: proceedings
+  title: Microsoft Defender for Endpointを用いたOS更新状況可視化システムの構築
+  author:
+    - 掛井将平
+    - 守屋賢知
+    - 齋藤彰一
+    - 松尾啓志
+  journal: 大学ICT推進協議会2023年度年次大会予稿集
+  year: 2023
+  page:
+    start: 1
+    end: 8
+
+-
   lang: en # en, jp
   type: journal
   title: Design of Enclosing Signing Keys by All Issuers in Distributed Public Key Certificate-Issuing Infrastructure
