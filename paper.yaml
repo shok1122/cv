@@ -17,6 +17,7 @@
   key: hirotomo2024cloud
   lang: jp # en, jp
   type: journal
+  review: true
   title: クラウドストレージのデータ所有証明に基づくデータ異常の発生主体の特定
   author:
     - 廣友雅徳
@@ -38,7 +39,8 @@
 -
   key: kakei2023microsoft
   lang: jp # en, jp
-  type: proceedings_jp
+  type: proceedings
+  review: false
   title: Microsoft Defender for Endpointを用いたOS更新状況可視化システムの構築
   author:
     - 掛井将平
@@ -55,6 +57,7 @@
   key: kakei2023design
   lang: en # en, jp
   type: journal
+  review: true
   title: Design of Enclosing Signing Keys by All Issuers in Distributed Public Key Certificate-Issuing Infrastructure
   author:
     - S. Kakei
@@ -74,6 +77,7 @@
   key: kumagai2023distributed
   lang: en # en, jp
   type: journal
+  review: true
   title: Distributed Public Key Certificate-Issuing Infrastructure for Consortium Certificate Authority Using Distributed Ledger Technology
   author:
     - K. Kumagai
@@ -93,6 +97,7 @@
   key: inayoshi2023execution
   lang: en # en, jp
   type: journal
+  review: true
   title: Execution Recording and Reconstruction for Detecting Information Flows in Android Apps
   author:
     - H. Inayoshi
@@ -111,6 +116,7 @@
   key: ezawa2023blockchain
   lang: en # en, jp
   type: journal
+  review: true
   title: Blockchain-based cross-domain authorization system for user-centric resource sharing
   author:
     - Y. Ezawa
@@ -131,6 +137,7 @@
   key: inayoshi2022plug
   lang: en # en, jp
   type: proceedings
+  review: true
   title: 'Plug and Analyze: Usable Dynamic Taint Tracker for Android Apps'
   author:
     - H. Inayoshi
@@ -148,6 +155,7 @@
   key: kakei2022granting
   lang: en # en, jp
   type: proceedings
+  review: true
   title: Granting Access Privileges using OpenID Connect in Permissioned Distributed Ledgers
   author:
     - S. Kakei
@@ -165,6 +173,7 @@
   key: yamamoto2022iot
   lang: jp # en, jp
   type: journal
+  review: true
   title: IoT機器のWebアプリケーションを模したハニーポットの自動生成フレームワーク
   author:
     - 山本萌花
@@ -183,6 +192,7 @@
   key: inayoshi2022value
   lang: en # en, jp
   type: journal
+  review: true
   title: 'Value-utilized taint propagation: toward precise detection of apps’ information flows across Android API calls'
   author:
     - H. Inayoshi
@@ -203,6 +213,7 @@
   key: yamamoto2021firmpot
   lang: en # en, jp
   type: proceedings
+  review: true
   title: 'FirmPot: A Framework for Intelligent-Interaction Honeypots Using Firmware of IoT Devices'
   author:
     - M. Yamamoto
@@ -220,6 +231,7 @@
   key: kakei2021simplifying
   lang: en # en, jp
   type: proceedings
+  review: true
   title: Simplifying Dynamic Public Key Certificate Graph for Certification Path Building in Distributed Public Key Infrastructure
   author:
     - S. Kakei
@@ -237,6 +249,7 @@
   key: inayoshi2021vtdroid
   lang: en # en, jp
   type: proceedings
+  review: true
   title: 'VTDroid: Value-based Tracking for Overcoming Anti-Taint-Analysis Techniques in Android Apps'
   author:
     - H. Inayoshi
@@ -272,6 +285,7 @@
   key: kakei2020cross
   lang: en # en, jp
   type: journal
+  review: true
   title: 'Cross-Certification Towards Distributed Authentication Infrastructure: A Case of Hyperledger Fabric'
   author:
     - S. Kakei
@@ -293,6 +307,7 @@
   key: inayoshi2019prevention
   lang: en
   type: proceedings
+  review: true
   title: Prevention of Data Leakage due to Implicit Information Flows in Android Applications
   author:
     - H. Inayoshi
@@ -312,6 +327,7 @@
   key: ezawa2019designing
   lang: en
   type: proceedings
+  review: true
   title: Designing Authentication and Authorization System with Blockchain
   author:
     - Y. Ezawa
@@ -334,6 +350,7 @@
   key: kakei2016ssl
   lang: en
   type: journal
+  review: true
   title: SSL Client Authentication with TPM
   author:
     - S. Kakei
@@ -353,6 +370,7 @@
   key: kakei2014tpm
   lang: jp
   type: journal
+  review: true
   title: TPMを用いた順序認証システムのためのアプリケーションフレームワーク
   author:
     - 掛井将平
@@ -370,6 +388,7 @@
   key: kakei2012tpm
   lang: jp
   type: journal
+  review: true
   title: TPMを用いたオフライン型タイムスタンプ
   author:
     - 掛井将平
@@ -389,6 +408,7 @@
   key: kakei2012offline
   lang: en
   type: proceedings
+  review: true
   title: 'Offline Time-Stamping System: Its Design and Implementation'
   author:
     - S. Kakei
@@ -407,6 +427,7 @@
   key: kakei2012offline2
   lang: en
   type: proceedings
+  review: true
   title: Offline time-stamping using TPM and its Java library
   author:
     - S. Kakei
@@ -424,7 +445,8 @@
 -
   key: makisuna2024web
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # jour
+  review: false
   title: Webシステムの開発者と運用者が協働するログベースの連合学習フレームワーク
   author:
     - 巻砂湧也
@@ -442,7 +464,8 @@
 -
   key: hunahashi2024fuzzing
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: ファジングによるメモリアクセスの重複に着目したベアメタルファームウェア向け細粒度メモリ破壊検知手法
   author:
     - 舟橋和哉
@@ -459,7 +482,8 @@
 -
   key: tokuda2023data
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: 非中央集権型データ連携の機密性向上のためのTEEと分散台帳技術を活用したデータ利用制御の提案
   author:
     - 徳田祥太
@@ -477,7 +501,8 @@
 -
   key: matsuura2023effectiveness
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: 組み込み用ファームウェアのコンコリック実行におけるパス探索戦略切り替えの有効性調査
   author:
     - 松浦央人
@@ -494,7 +519,8 @@
 -
   key: kawanishi2023proposal
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: CGIバイナリ向けシンボリック実行を用いたIoTファームウェアエミュレータの提案と基礎調査
   author:
     - 川西晶大
@@ -511,7 +537,8 @@
 -
   key: inayoshi2023semi
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: Androidアプリ向けSDKのガイダンスと実動作間の不一致の半自動検知
   author:
     - 稲吉弘樹
@@ -526,7 +553,8 @@
 -
   key: kado2023blockchain
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: ブロックチェーンを用いたクラウドストレージのプライベートな完全性検証方式
   author:
     - 嘉戸裕一
@@ -547,7 +575,8 @@
 -
   key: tokuda2023decentralized
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: 検証可能なデータ利用ポリシーに基づくIntel SGXを用いた非中央集権型データ連携システムの提案
   author:
     - 徳田祥太
@@ -564,7 +593,8 @@
 -
   key: inayoshi2022study
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: 旧バージョンAndroidの利用におけるハードウェアIDの収集に関する調査
   author:
     - 稲吉弘樹
@@ -581,7 +611,8 @@
 -
   key: oonishi2022computing
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: Androidアプリケーションの例外処理によるリークの制約の演算
   author:
     - 大西導徳
@@ -599,7 +630,8 @@
 -
   key: oonishi2021improving
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: Androidアプリケーションのテイント解析における例外処理を考慮した制約の精度の向上
   author:
     - 大西導徳
@@ -617,7 +649,8 @@
 -
   key: yamamoto2021framework
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: IoT機器のWebUIを模したハニーポットの自動生成フレームワーク
   author:
     - 山本萌花
@@ -634,7 +667,8 @@
 -
   key: shiraishi2021report
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: コンピュータセキュリティシンポジウムCSS2020開催報告～オンライン化を支えたシステムとUX～
   author:
     - 白石善明
@@ -663,7 +697,8 @@
 -
   key: kumagai2021study
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: 分散型台帳への秘密鍵の封入による協同運用可能な公開鍵証明書発行基盤の検討
   author:
     - 熊谷圭太
@@ -681,7 +716,8 @@
 -
   key: azuma2021designing
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: オンライン投票システムの投票者インタフェースのためのWeb API
   author:
     - 東知哉
@@ -700,7 +736,8 @@
 -
   key: motoori2021logic
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: ロジックボム検知における疑わしい条件の絞り込み手法
   author:
     - 本居千佳
@@ -717,7 +754,8 @@
 -
   key: uno2021android
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: Androidアプリケーションにおける操作可能な画面要素とパーミッションの関係の調査
   author:
     - 宇野文人
@@ -734,7 +772,8 @@
 -
   key: yamamoto2020proposal
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: ファームウェアの挙動を事前収集するIoTハニーポットの提案および基礎調査
   author:
     - 山本萌花
@@ -751,7 +790,8 @@
 -
   key: ezawa2020user
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: User-Managed Accessに基づくクロスドメイン認可フレームワーク
   author:
     - 江澤友基
@@ -771,7 +811,8 @@
 -
   key: yoshino2020iot
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: IoTデバイス向けの制御フローベース遠隔認証手法の軽量化の検討
   author:
     - 吉野貴史
@@ -790,7 +831,8 @@
 -
   key: murakami2020web
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: Web of Thingsを利用したTrigger-Action Programming環境における不適切なルール実行の防止手法の検討
   author:
     - 村上恒
@@ -807,7 +849,8 @@
 -
   key: ezawa2020blockchain
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: ブロックチェーンを用いたユーザ中心の認可プロトコルの一実装～User-Managed AccessのHyperledger Fabricによる実装～
   author:
     - 江澤友基
@@ -827,7 +870,8 @@
 -
   key: nishimura2019iot
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: IoTゲートウェイで動作するコンテナの異常検知手法の提案
   author:
     - 西村賢太
@@ -847,7 +891,8 @@
 -
   key: hayashi2019compiler
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: コンパイラ最適化がテイント解析に与える影響と解析性能向上
   author:
     - 林優香
@@ -867,7 +912,8 @@
 -
   key: aoki2019trustzone
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: TrustZoneを利用した安全なメモリ操作によるプロセス状態確認手法
   author:
     - 青木和也
@@ -886,7 +932,8 @@
 -
   key: kakei2019decentralized
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title:  分散型認証基盤に向けたスマートコントラクトを用いた相互認証方式の提案
   author:
     - 掛井将平
@@ -906,7 +953,8 @@
 -
   key: matsuda2019tpm
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: TPMのAIK証明書と関連付く公開鍵証明書の発行について
   author:
     - 松田育也
@@ -926,7 +974,8 @@
 -
   key: ezawa2018openid
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: OpenIDで認証情報を発行するブロックチェーンを用いた認証・認可システム
   author:
     - 江澤友基
@@ -947,7 +996,8 @@
 -
   key: kakei2018ssl
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: 匿名性を考慮したTPMを用いるSSLクライアント認証
   author:
     - 掛井将平
@@ -965,7 +1015,8 @@
 -
   key: kakei2013tpm
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: TPMを用いたVirtual Monotonic Counterの階層型接続による順序認証システムとJavaによるライブラリ
   author:
     - 掛井将平
@@ -983,7 +1034,8 @@
 -
   key: kakei2013tpm
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: TPMを用いたVirtual Monotonic Counterの階層型接続による順序認証方式
   author:
     - 掛井将平
@@ -1001,7 +1053,8 @@
 -
   key: kakei2011timestamp
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: 階層型タイムスタンプサービスとTPMによる時刻保証方式
   author:
     - 掛井将平
@@ -1020,7 +1073,8 @@
 -
   key: kakei2012offline
   lang: jp # en, jp
-  type: proceedings_jp # journal
+  type: proceedings # journal
+  review: false
   title: オフライン型タイムスタンプシステムのためのJavaによるライブラリ
   author:
     - 掛井将平
