@@ -64,7 +64,7 @@ class Biblio
   def self.factory(_data)
     type = _data['type']
     case type
-    when 'journal', 'proceedings', 'proceedings_jp', 'article' then
+    when 'journal', 'proceedings', 'article' then
       return BiblioPaper::factory(_data)
     when 'poster', 'oral', 'speech' then
       return BiblioPresentation::factory(_data)
@@ -78,18 +78,20 @@ class Biblio
   end
 
   def author_jp()
-    @author.map!{ |x| (x == @name) ? "<u>#{x}</u>" : x }
-    return @author.join(", ")
+    raise if @author.find { |x| (x == @name) }.nil?
+    authors = @author.map { |x| (x == @name) ? "<u>#{x}</u>" : x }
+    return authors.join(", ")
   end
 
   def author_en()
-    @author.map!{ |x| (x == @name) ? "<u>#{x}</u>" : x }
-    if @author.length > 2
-      return @author[0..-2].join(', ') + ", and #{@author[-1]}"
-    elsif @author.length == 2
-      return "#{@author[0]} and #{@author[1]}"
-    elsif @author.length == 1
-      return "#{@author[0]}"
+    raise if @author.find { |x| (x == @name) }.nil?
+    authors = @author.map { |x| (x == @name) ? "<u>#{x}</u>" : x }
+    if authors.length > 2
+      return authors[0..-2].join(', ') + ", and #{authors[-1]}"
+    elsif authors.length == 2
+      return "#{authors[0]} and #{authors[1]}"
+    elsif authors.length == 1
+      return "#{authors[0]}"
     end
   end
 
@@ -294,17 +296,16 @@ class XXX
 
   def main()
     paper = YAML.load_file('./paper.yaml')
-    journal = paper.find_all { |v| v['type'] == "journal" }.sort{|x| x['year']}.reverse
-    proceedings = paper.find_all { |v| v['type'] == "proceedings" }.sort{|x| x['year']}.reverse
-    proceedings_jp = paper.find_all { |v| v['type'] == "proceedings_jp" }.sort{|x| x['year']}.reverse
-    article = paper.find_all { |v| v['type'] == "article" }.sort{|x| x['year']}.reverse
-
+    journal = paper.find_all { |v| v['type'] == "journal" }.sort_by{|x| x['year']}.reverse
+    proceedings = paper.find_all { |v| v['type'] == "proceedings" && v['lang'] == 'en' }.sort_by{|x| x['year']}.reverse
+    proceedings_jp = paper.find_all { |v| v['type'] == "proceedings" && v['lang'] == 'jp' }.sort_by{|x| x['year']}.reverse
+    article = paper.find_all { |v| v['type'] == "article" }.sort_by{|x| x['year']}.reverse
     award = paper.find_all { |v| v['award'].nil? == false }
 
     presentation = YAML.load_file('./presentation.yaml')
-    poster = presentation.find_all { |v| v['type'] == 'poster' }.sort{ |x| x['year']}.reverse
-    oral = presentation.find_all { |v| v['type'] == 'oral' }.sort{ |x| x['year']}.reverse
-    speech = presentation.find_all { |v| v['type'] == 'speech' }.sort{ |x| x['year']}.reverse
+    poster = presentation.find_all { |v| v['type'] == 'poster' }.sort_by{ |x| x['year']}.reverse
+    oral = presentation.find_all { |v| v['type'] == 'oral' }.sort_by{ |x| x['year']}.reverse
+    speech = presentation.find_all { |v| v['type'] == 'speech' }.sort_by{ |x| x['year']}.reverse
 
     funding = YAML.load_file('./funding.yaml')
     funding_principal = funding.find_all { |v| v['role'] == 'principal' }
