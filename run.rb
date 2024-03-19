@@ -2,6 +2,18 @@ require 'date'
 require 'erb'
 require 'yaml'
 
+class Award
+  def initialize(_data)
+    @data = _data['award']
+    @title = @data['title']
+    @org = @data['org']
+  end
+
+  def biblio()
+    return "#{@org}, #{@title}"
+  end
+end
+
 class Career
   def initialize(_data)
     @data = _data
@@ -166,7 +178,7 @@ class BiblioPaper < Biblio
     @journal = _data['journal']
     @volume = _data['volume']
     @number = _data['number']
-    @page = (_data['page']['start'].nil? || _data['page']['start'].nil?) ? nil : _data['page']
+    @page = (_data['page'].nil? || _data['page']['start'].nil? || _data['page']['start'].nil?) ? nil : _data['page']
     @doi = _data['doi']
 
     super(_data, _name)
@@ -275,12 +287,19 @@ class XXX
     return this.biblio()
   end
 
+  def make_award(_x)
+    this = Award.new(_x)
+    return this.biblio()
+  end
+
   def main()
     paper = YAML.load_file('./paper.yaml')
     journal = paper.find_all { |v| v['type'] == "journal" }.sort{|x| x['year']}.reverse
     proceedings = paper.find_all { |v| v['type'] == "proceedings" }.sort{|x| x['year']}.reverse
     proceedings_jp = paper.find_all { |v| v['type'] == "proceedings_jp" }.sort{|x| x['year']}.reverse
     article = paper.find_all { |v| v['type'] == "article" }.sort{|x| x['year']}.reverse
+
+    award = paper.find_all { |v| v['award'].nil? == false }
 
     presentation = YAML.load_file('./presentation.yaml')
     poster = presentation.find_all { |v| v['type'] == 'poster' }.sort{ |x| x['year']}.reverse

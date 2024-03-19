@@ -51,6 +51,12 @@
     <%- end -%>
     -->
   </ul>
+  <ul>
+    <h2>受賞歴</h2>
+    <%- award.each do |x| -%>
+      <li><%=make_award(x)%></li>
+    <%- end -%>
+  </ul>
   <ol>
     <h2>査読付き論文誌論文</h2>
     <%- journal.each do |x| -%>
