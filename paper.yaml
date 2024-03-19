@@ -36,6 +36,22 @@
   tba: true
 
 -
+  key: kakei2023microsoft
+  lang: jp # en, jp
+  type: proceedings_jp
+  title: Microsoft Defender for Endpointを用いたOS更新状況可視化システムの構築
+  author:
+    - 掛井将平
+    - 守屋賢知
+    - 齋藤彰一
+    - 松尾啓志
+  journal: 大学ICT推進協議会2023年度年次大会予稿集
+  year: 2023
+  page:
+    start: 1
+    end: 8
+
+-
   key: kakei2023design
   lang: en # en, jp
   type: journal
