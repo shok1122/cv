@@ -674,6 +674,29 @@
     end: 8
 
 -
+  key: tokuda2023data
+  lang: jp # en, jp
+  type: proceedings # journal
+  review: false
+  title: データ所有証明を適用したEthereumを用いる非同期なデータ交換の実装手法の検討
+  author:
+    - 東知哉
+    - 白石善明
+    - 掛井将平
+    - 廣友雅徳
+    - 毛利公美
+    - 森井 昌克
+  journal: コ2023年暗号と情報セキュリティシンポジウム予稿集
+  date:
+    y: 2023
+    m: 1
+  volume: 
+  number: 
+  page: 
+    start:
+    end:
+
+-
   key: inayoshi2022study
   lang: jp # en, jp
   type: proceedings # journal
