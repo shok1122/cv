@@ -333,9 +333,7 @@ class XXX
 
     File.open('./template.erb') do |f|
       text = ERB.new(f.read, trim_mode: '%-').result(binding)
-      File.open('./index.html', 'w') do |f1|
-        f1.puts text
-      end
+        puts text
     end
   end
 end
