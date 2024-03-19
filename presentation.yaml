@@ -19,7 +19,9 @@
     - S. Kakei
     - Y. Shiraishi
     - S. Saito
-  year: 2023
+  date:
+    y: 2023
+    m: 8
   conference: The 18th International Workshop on Security (IWSEC2023)
   city: Yokohama
   country: Japan
@@ -30,7 +32,9 @@
   title: 'Distributed Ledger Technology for Authentication and Authorization: Meta-PKI and Cross-Domain Authorization'
   author:
     - S. Kakei
-  year: 2023
+  date:
+    y: 2022
+    m: 9
   conference: International Collaborative Symposium for Informatics (ICSI2022)
   country: Australia
 
@@ -41,7 +45,9 @@
   author:
     - S. Kakei
     - Y. Shiraishi
-  year: 2022
+  date:
+    y: 2022
+    m: 3
   conference: Machine Learning and Blockchain Technology (MLBT2022)
   country: Virtual
 
@@ -55,7 +61,9 @@
     - 瀧本栄二
     - 毛利公一
     - 齋藤彰一
-  year: 2019
+  date:
+    y: 2019
+    m: 10
   conference: コンピュータセキュリティシンポジウム2019（CSS2019）
   number: DPS-12
   city: 佐世保
@@ -72,7 +80,9 @@
     - M. Hashimoto
     - H. Yokoyama
     - S. Saito
-  year: 2019
+  date:
+    y: 2019
+    m: 8
   conference: The 14th Asia Joint Conference on Information Security (AsiaJCIS2019)
   city: Kobe
   country: Japan

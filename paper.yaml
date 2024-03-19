@@ -26,7 +26,9 @@
     - S. Kakei
     - S. Saito
   journal: Proc. of 11th International Conference on Mobile Software Engineering and Systems (MOBILESoft 2024)
-  year: 2024
+  date:
+    y: 2024
+    m: 4
   volume:
   number:
   page:
@@ -49,7 +51,9 @@
     - 毛利公美
     - 森井昌克
   journal: 電子情報通信学会論文誌D
-  year: 2024
+  date:
+    y: 2024
+    m:
   volume: 
   number: 
   page:
@@ -69,7 +73,9 @@
     - 齋藤彰一
     - 松尾啓志
   journal: 大学ICT推進協議会2023年度年次大会予稿集
-  year: 2023
+  date:
+    y: 2023
+    m: 12
   page:
     start: 1
     end: 8
@@ -86,7 +92,9 @@
     - Y. Shiraishi
     - S. Saito
   journal: IEICE TRANSACTIONS on Information and Systems
-  year: 2023
+  date:
+    y: 2023
+    m: 9
   volume: E106.D
   number: 9
   page:
@@ -106,7 +114,9 @@
     - Y. Shiraishi
     - S. Saito
   journal: Security and Communication Networks
-  year: 2023
+  date:
+    y: 2023
+    m: 6
   volume: 2023
   number: 9559439
   page:
@@ -125,7 +135,9 @@
     - S. Kakei
     - S. Saito
   journal: IEEE Access
-  year: 2023
+  date:
+    y: 2023
+    m: 1
   volume: 11
   number: 
   page:
@@ -146,7 +158,9 @@
     - M. Mohri
     - M. Morii
   journal: 'Blockchain: Research and Applications'
-  year: 2023
+  date:
+    y: 2023
+    m: 1
   volume: 4
   number: 2
   page:
@@ -165,7 +179,9 @@
     - S. Kakei
     - S. Saito
   journal: Proc. of 22nd IEEE International Working Conference on Source Code Analysis and Manipulation
-  year: 2022
+  date:
+    y: 2022
+    m: 10
   volume:
   number:
   page:
@@ -183,7 +199,9 @@
     - Y. Shiraishi
     - S. Saito
   journal: Proc. of 18th EAI International Conference on Security and Privacy in Communication Networks (SecureComm 2022)
-  year: 2022
+  date:
+    y: 2022
+    m: 10
   volume:
   number:
   page:
@@ -201,7 +219,9 @@
     - 掛井将平
     - 齋藤彰一
   journal: 情報処理学会論文誌
-  year: 2022
+  date:
+    y: 2022
+    m: 9
   volume: 63
   number: 9
   page:
@@ -222,7 +242,9 @@
     - K. Mouri
     - S. Saito
   journal: International Journal of Information Security
-  year: 2022
+  date:
+    y: 2022
+    m: 8
   volume: 21
   number: 5
   page:
@@ -241,7 +263,9 @@
     - S. Kakei
     - S. Saito
   journal: Proc. of The 8th International Workshop on Information and Communication Security (WICS 2021)
-  year: 2021
+  date:
+    y: 2021
+    m: 11
   volume: 
   number: 
   page:
@@ -259,7 +283,9 @@
     - Y. Shiraishi
     - S. Saito
   journal: Proc. of The 12th International Conference on ICT Convergence (ICTC 2021)
-  year: 2021
+  date:
+    y: 2021
+    m: 10
   volume: 
   number: 
   page:
@@ -279,7 +305,9 @@
     - K. Mouri
     - S. Saito
   journal: Proc. of The 16th International Conference on Availability, Reliability and Security (ARES2021)
-  year: 2021
+  date:
+    y: 2021
+    m: 8
   volume: 
   number: 
   page:
@@ -295,7 +323,9 @@
     - 白石善明
     - 掛井将平
   journal: 通信ソサエティマガジン
-  year: 2020
+  date:
+    y: 2020
+    m: 6
   volume: 14
   number: 1
   page:
@@ -316,7 +346,9 @@
     - M. Hashimoto
     - S. Saito
   journal: IEEE Access
-  year: 2020
+  date:
+    y: 2020
+    m: 7
   volume: 8
   number: 
   page:
@@ -337,7 +369,9 @@
     - K. Mouri
     - S. Saito
   journal: Proc. of 14th Asia Joint Conference on Information Security (AsiaJCIS 2019)
-  year: 2019
+  date:
+    y: 2019
+    m: 8
   volume: 
   number: 
   page:
@@ -360,7 +394,9 @@
     - M. Mohri
     - M. Morii
   journal: Proc. of 14th Asia Joint Conference on Information Security (AsiaJCIS 2019)
-  year: 2019
+  date:
+    y: 2019
+    m: 8
   volume: 
   number: 
   page:
@@ -379,7 +415,9 @@
     - Y. Shiraishi
     - M. Morii
   journal: IEICE Transactions on Information and Systems
-  year: 2016
+  date:
+    y: 2016
+    m: 4
   volume: E99.D
   number: 4
   page:
@@ -398,7 +436,9 @@
     - 毛利公美
     - 白石善明
   journal: 電子情報通信学会論文誌D
-  year: 2014
+  date:
+    y: 2014
+    m: 3
   volume: J97-D
   number: 3
   page:
@@ -418,7 +458,9 @@
     - 白石善明
     - 野口亮司
   journal: 情報処理学会論文誌
-  year: 2012
+  date:
+    y: 2012
+    m: 9
   volume: 53
   number: 9
   page:
@@ -437,7 +479,9 @@
     - Y. Shiraishi
     - R. Noguchi
   journal: Proc. of 2012 IEEE International Conference on Control System, Computing and Engineering (ICCSCE 2012)
-  year: 2012
+  date:
+    y: 2012
+    m: 11
   volume: 
   number: 
   page:
@@ -456,7 +500,9 @@
     - Y. Shiraishi
     - R. Noguchi
   journal: Proc. of 2012 International Symposium on Computer Applications and Industrial Electronics (ISCAIE 2012)
-  year: 2012
+  date:
+    y: 2012
+    m: 12
   volume: 
   number: 
   page:
@@ -475,7 +521,9 @@
     - 徳田祥太
     - 齋藤彰一
   journal: 2024年暗号と情報セキュリティシンポジウム（SCIS2024）予稿集
-  year: 2024
+  date:
+    y: 2024
+    m: 1
   volume: 
   number: 
   page: 
@@ -493,7 +541,9 @@
     - 掛井将平
     - 齋藤彰一 
   journal: 2024年暗号と情報セキュリティシンポジウム（SCIS2024）予稿集
-  year: 2024
+  date:
+    y: 2024
+    m: 1
   volume: 
   number: 
   page: 
@@ -512,7 +562,9 @@
     - 白石善明
     - 齋藤彰一
   journal: コンピュータセキュリティシンポジウム2023（CSS2023）予稿集
-  year: 2023
+  date:
+    y: 2023
+    m: 10
   volume: 
   number: 
   page: 
@@ -530,7 +582,9 @@
     - 掛井将平
     - 齋藤彰一
   journal: コンピュータセキュリティシンポジウム2023（CSS2023）予稿集
-  year: 2023
+  date:
+    y: 2023
+    m: 10
   volume: 
   number: 
   page: 
@@ -548,7 +602,9 @@
     - 掛井将平
     - 齋藤彰一
   journal: コンピュータセキュリティシンポジウム2023（CSS2023）予稿集
-  year: 2023
+  date:
+    y: 2023
+    m: 10
   volume: 
   number: 
   page: 
@@ -566,7 +622,9 @@
     - 掛井将平
     - 齋藤彰一
   journal: コンピュータセキュリティシンポジウム2023（CSS2023）予稿集
-  year: 2023
+  date:
+    y: 2023
+    m: 10
   award:
     title: 優秀論文賞
     org: CSS2023
@@ -586,7 +644,9 @@
     - 毛利公美
     - 森井昌克
   journal: コンピュータセキュリティシンポジウム2023（CSS2023）予稿集
-  year: 2023
+  date:
+    y: 2023
+    m: 10
   volume: 
   number: 
   page: 
@@ -604,7 +664,9 @@
     - 掛井将平
     - 齋藤彰一
   journal: 研究報告コンピュータセキュリティ（CSEC）
-  year: 2023
+  date:
+    y: 2023
+    m: 5
   volume: 2023-CSEC-101
   number: 17
   page: 
@@ -622,7 +684,9 @@
     - 掛井将平
     - 齋藤彰一
   journal: コンピュータセキュリティシンポジウム2022（CSS2022）予稿集
-  year: 2022
+  date:
+    y: 2022
+    m: 10
   volume: 
   number: 
   page: 
@@ -641,7 +705,9 @@
     - 掛井将平
     - 齋藤彰一
   journal: 研究報告コンピュータセキュリティ（CSEC）
-  year: 2022
+  date:
+    y: 2022
+    m: 7
   volume: 2022-CSEC-98
   number: 13
   page: 
@@ -660,7 +726,9 @@
     - 掛井将平
     - 齋藤彰一
   journal: コンピュータセキュリティシンポジウム2021（CSS2021）予稿集
-  year: 2021
+  date:
+    y: 2021
+    m: 10
   volume: 
   number: 
   page: 
@@ -678,7 +746,9 @@
     - 掛井将平
     - 齋藤彰一
   journal: 研究報告コンピュータセキュリティ（CSEC）
-  year: 2021
+  date:
+    y: 2021
+    m: 7
   volume: 2021-CSEC-094
   number: 2
   page: 
@@ -708,7 +778,9 @@
     - 曽根直人
     - 森井昌克
   journal: 研究報告コンピュータセキュリティ（CSEC）
-  year: 2021
+  date:
+    y: 2021
+    m: 7
   volume: 2021-CSEC-094
   number: 3
   page: 
@@ -727,7 +799,9 @@
     - 白石善明
     - 齋藤彰一
   journal: マルチメディア，分散協調とモバイルシンポジウム2021（DICOMO2021）予稿集
-  year: 2021
+  date:
+    y: 2021
+    m: 6
   volume: 
   number: 
   page: 
@@ -747,7 +821,9 @@
     - 毛利公美
     - 森井昌克
   journal: マルチメディア，分散協調とモバイルシンポジウム2021（DICOMO2021）予稿集
-  year: 2021
+  date:
+    y: 2021
+    m: 6
   volume: 
   number: 
   page: 
@@ -765,7 +841,9 @@
     - 掛井将平
     - 齋藤彰一
   journal: 2021年電子情報通信学会総合大会予稿集
-  year: 2021
+  date:
+    y: 2021
+    m: 3
   volume: 
   number: 
   page: 
@@ -783,7 +861,9 @@
     - 掛井将平
     - 齋藤彰一
   journal: 2021年電子情報通信学会総合大会予稿集
-  year: 2021
+  date:
+    y: 2021
+    m: 3
   volume: 
   number: 
   page: 
@@ -801,7 +881,9 @@
     - 掛井将平
     - 齋藤彰一
   journal: コンピュータセキュリティシンポジウム2020（CSS2020）予稿集
-  year: 2020
+  date:
+    y: 2020
+    m: 10
   volume: 
   number: 
   page: 
@@ -822,7 +904,9 @@
     - 毛利公美
     - 森井昌克
   journal: コンピュータセキュリティシンポジウム2020（CSS2020）予稿集
-  year: 2020
+  date:
+    y: 2020
+    m: 10
   volume: 
   number: 
   page: 
@@ -842,7 +926,9 @@
     - 毛利公一
     - 齋藤彰一
   journal: 研究報告コンピュータセキュリティ（CSEC）
-  year: 2020
+  date:
+    y: 2020
+    m: 3
   volume: 2020-CSEC-88
   number: 49
   page: 
@@ -860,7 +946,9 @@
     - 掛井将平
     - 齋藤彰一
   journal: 研究報告コンピュータセキュリティ（CSEC）
-  year: 2020
+  date:
+    y: 2020
+    m: 3
   volume: 2020-CSEC-88
   number: 49
   page: 
@@ -881,9 +969,11 @@
     - 毛利公美
     - 森井昌克
   journal: 信学技報
-  year: 2020
+  date:
+    y: 2020
+    m: 3
   volume: 119
-  number:  437
+  number: 437
   page: 
     start: 307
     end: 312
@@ -902,7 +992,9 @@
     - 毛利公一
     - 齋藤彰一
   journal: コンピュータセキュリティシンポジウム2019（CSS2019）論文集
-  year: 2019
+  date:
+    y: 2019
+    m: 10
   volume: 
   number: 
   page: 
@@ -923,7 +1015,9 @@
     - 毛利公一
     - 齋藤彰一
   journal: コンピュータセキュリティシンポジウム2019（CSS2019）論文集
-  year: 2019
+  date:
+    y: 2019
+    m: 10
   volume: 
   number: 
   page: 
@@ -943,7 +1037,9 @@
     - 毛利公一
     - 齋藤彰一
   journal: コンピュータセキュリティシンポジウム2019（CSS2019）論文集
-  year: 2019
+  date:
+    y: 2019
+    m: 10
   volume: 
   number: 
   page: 
@@ -964,7 +1060,9 @@
     - 橋本真幸
     - 齋藤彰一
   journal: コンピュータセキュリティシンポジウム2019（CSS2019）論文集
-  year: 2019
+  date:
+    y: 2019
+    m: 10
   volume: 
   number: 
   page: 
@@ -985,7 +1083,9 @@
     - 掛井将平
     - 白石善明
   journal: 第81回全国大会講演予稿集
-  year: 2019
+  date:
+    y: 2019
+    m: 2
   volume: 
   number: 
   page: 
@@ -1007,7 +1107,9 @@
     - 毛利公美
     - 森井昌克
   journal: 信学技報
-  year: 2018
+  date:
+    y: 2018
+    m: 11
   volume: 118
   number: 315
   page: 
@@ -1026,7 +1128,9 @@
     - 毛利公美
     - 森井昌克
   journal: 信学技報
-  year: 2018
+  date:
+    y: 2018
+    m: 11
   volume: 118
   number: 315
   page: 
@@ -1045,7 +1149,9 @@
     - 白石善明
     - 野口亮司
   journal: 第75回全国大会講演予稿集
-  year: 2013
+  date:
+    y: 2013
+    m: 3
   volume: 
   number: 
   page: 
@@ -1064,7 +1170,9 @@
     - 白石善明
     - 野口亮司
   journal: 2013年暗号と情報セキュリティシンポジウム（SCIS2013）予稿集
-  year: 2013
+  date:
+    y: 2013
+    m: 1
   volume: 
   number: 
   page: 
@@ -1084,7 +1192,9 @@
     - 白石善明
     - 野口亮司
   journal: マルチメディア，分散協調とモバイルシンポジウム2011（DICOMO2011）予稿集
-  year: 2011
+  date:
+    y: 2011
+    m: 6
   volume: 
   number: 
   page: 
@@ -1104,7 +1214,9 @@
     - 白石善明
     - 野口亮司
   journal: 第74回全国大会講演予稿集
-  year: 2012
+  date:
+    y: 2012
+    m: 6
   volume: 
   number: 
   page: 

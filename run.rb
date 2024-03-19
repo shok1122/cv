@@ -56,7 +56,7 @@ class Biblio
     @data = _data
     @title = _data['title']
     @author = _data['author']
-    @year = _data['year']
+    @date = _data['date']
     @tba = (_data['tba'].nil? || _data['tba'] == false) ? false : true
     @name = _name
   end
@@ -95,8 +95,16 @@ class Biblio
     end
   end
 
-  def year()
-    return @year.nil? ? "" : ", #{@year}"
+  def date()
+    if @date.nil?
+      return ""
+    elsif @date['y'].nil? == false && @date['m'].nil? == false
+      return ', ' + sprintf('%d/%02d', @date['y'], @date['m'])
+    elsif @date['y'].nil? == false
+      return ", #{@date['y']}"
+    else
+      return ''
+    end
   end
 
   def tba()
@@ -125,7 +133,7 @@ class BiblioPresentation < Biblio
   end
 
   def biblio()
-    return "#{author}#{title}#{conference}#{number}#{city}#{country}#{year}. #{tba}".strip
+    return "#{author}#{title}#{conference}#{number}#{city}#{country}#{date}. #{tba}".strip
   end
 
   def conference()
@@ -196,7 +204,7 @@ class BiblioPaper < Biblio
   end
 
   def biblio()
-    return "#{author}#{title}#{journal}#{volume}#{number}#{page}#{year}. #{tba}#{doi}".strip
+    return "#{author}#{title}#{journal}#{volume}#{number}#{page}#{date}. #{tba}#{doi}".strip
   end
 
   def journal()
@@ -294,12 +302,20 @@ class XXX
     return this.biblio()
   end
 
+  def to_date(_date)
+    raise if _date['y'].nil?
+    y = _date['y']
+    m = _date['m'].nil? ? 1 : _date['m']
+    d = _date['d'].nil? ? 1 : _date['d']
+    return Date.new(y, m, d)
+  end
+
   def main()
     paper = YAML.load_file('./paper.yaml')
-    journal = paper.find_all { |v| v['type'] == "journal" }.sort_by{|x| x['year']}.reverse
-    proceedings = paper.find_all { |v| v['type'] == "proceedings" && v['lang'] == 'en' }.sort_by{|x| x['year']}.reverse
-    proceedings_jp = paper.find_all { |v| v['type'] == "proceedings" && v['lang'] == 'jp' }.sort_by{|x| x['year']}.reverse
-    article = paper.find_all { |v| v['type'] == "article" }.sort_by{|x| x['year']}.reverse
+    journal = paper.find_all { |v| v['type'] == "journal" }.sort_by{|x| to_date(x['date']) }.reverse
+    proceedings = paper.find_all { |v| v['type'] == "proceedings" && v['lang'] == 'en' }.sort_by{|x| to_date(x['date']) }.reverse
+    proceedings_jp = paper.find_all { |v| v['type'] == "proceedings" && v['lang'] == 'jp' }.sort_by{|x| to_date(x['date']) }.reverse
+    article = paper.find_all { |v| v['type'] == "article" }.sort_by{|x| to_date(x['date']) }.reverse
     award = paper.find_all { |v| v['award'].nil? == false }
 
     presentation = YAML.load_file('./presentation.yaml')
@@ -317,7 +333,9 @@ class XXX
 
     File.open('./template.erb') do |f|
       text = ERB.new(f.read, trim_mode: '%-').result(binding)
-      puts text
+      File.open('./index.html', 'w') do |f1|
+        f1.puts text
+      end
     end
   end
 end
