@@ -1,6 +1,8 @@
 #-
+#  key:
 #  lang: # en, jp
-#  type: # journal, proceedings, proceedings_jp
+#  type: # journal, proceedings
+#  review: true / false
 #  title: 
 #  author:
 #    - 
@@ -12,6 +14,25 @@
 #    start:
 #    end:
 #  doi:
+
+-
+  key: inayoshi
+  lang: en
+  type: proceedings
+  review: true
+  title: Detection of Inconsistencies between Guidance Pages and Actual Data Collection of Third-party SDKs in Android Apps
+  author:
+    - H. Inayoshi
+    - S. Kakei
+    - S. Saito
+  journal: Proc. of 11th International Conference on Mobile Software Engineering and Systems (MOBILESoft 2024)
+  year: 2024
+  volume:
+  number:
+  page:
+    start:
+    end:
+  tba: true
 
 -
   key: hirotomo2024cloud
@@ -27,7 +48,7 @@
     - 白石善明
     - 毛利公美
     - 森井昌克
-  journal: 
+  journal: 電子情報通信学会論文誌D
   year: 2024
   volume: 
   number: 
