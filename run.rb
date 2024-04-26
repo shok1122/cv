@@ -310,7 +310,7 @@ class XXX
     return Date.new(y, m, d)
   end
 
-  def main()
+  def make_index()
     paper = YAML.load_file('./paper.yaml')
     journal = paper.find_all { |v| v['type'] == "journal" }.sort_by{|x| to_date(x['date']) }.reverse
     proceedings = paper.find_all { |v| v['type'] == "proceedings" && v['lang'] == 'en' }.sort_by{|x| to_date(x['date']) }.reverse
@@ -333,7 +333,7 @@ class XXX
 
     File.open('./template.erb') do |f|
       text = ERB.new(f.read, trim_mode: '%-').result(binding)
-        puts text
+      puts text
     end
   end
 end
@@ -341,4 +341,4 @@ end
 ## Entrypoint ##
 
 this = XXX.new
-this.main()
+this.make_index()
