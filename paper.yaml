@@ -16,6 +16,30 @@
 #  doi:
 
 -
+  key: fujii2024design
+  lang: jp # en, jp
+  type: proceedings # journal
+  review: false
+  title: Webサービスに対する認証・認可機能アドオンサービスA+Blockの設計
+  author:
+    - 藤井翔太
+    - 掛井将平
+    - 廣友雅徳
+    - 瀧田愼
+    - 白石善明
+    - 毛利公美
+    - 葛野弘樹
+    - 森井昌克
+  journal: 研究報告セキュリティ心理学とトラスト（SPT）
+  date:
+    y: 2024
+    m: 3
+  volume: 2024-SPT-54
+  number: 41
+  page: 
+    start: 1
+    end: 8
+-
   key: inayoshi
   lang: en
   type: proceedings
@@ -588,8 +612,8 @@
   volume: 
   number: 
   page: 
-    start:
-    end:
+    start: 628
+    end: 635
 
 -
   key: kawanishi2023proposal
