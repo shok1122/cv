@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <style>
+  body {
+    margin: 10%;
+    font-size: 1.2em;
+    font-family: Times New Roman;
+  }
+  ol li {
+    padding: 0.4em 0em;
+  }
+  table.career tr td:first-child {
+    width: 220px
+  }
+  </style>
+</head>
+<body>
+<%- funded_papers.each do |x_kaken_no, x_papers| -%>
+  <h2><%=x_kaken_no%></h2>
+  <ul>
+  <%- x_papers.each do |x_paper| -%>
+    <li><%=make_biblio(x_paper)%></li>
+  <%- end -%>
+  </ul>
+<%- end -%>
+</body>
+</html>

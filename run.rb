@@ -333,12 +333,44 @@ class XXX
 
     File.open('./template.erb') do |f|
       text = ERB.new(f.read, trim_mode: '%-').result(binding)
-      puts text
+      return text
+    end
+  end
+
+  def make_funding()
+    funding_list = YAML.load_file('./funding.yaml').map { |x| x['number'] }
+
+    papers = YAML.load_file('./paper.yaml').find_all { |x|
+      x['kaken'].nil? == false
+    }.sort_by { |x|
+      to_date(x['date'])
+    }.reverse
+
+    funded_papers = {}
+    papers.each do |x|
+      x['kaken'].each do |x_kaken_no|
+        funded_papers[x_kaken_no] = [] unless funded_papers.has_key?(x_kaken_no)
+        funded_papers[x_kaken_no].append(x)
+      end
+    end
+
+    File.open('./template_funded_papers.erb') do |f|
+      text = ERB.new(f.read, trim_mode: '%-').result(binding)
+      return text
     end
   end
 end
 
 ## Entrypoint ##
 
+param = ARGV[0]
+
 this = XXX.new
-this.make_index()
+
+case param
+when "index" then
+  puts this.make_index()
+when "funding" then
+  puts this.make_funding()
+end
+
