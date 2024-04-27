@@ -367,10 +367,13 @@ param = ARGV[0]
 
 this = XXX.new
 
-case param
-when "index" then
-  puts this.make_index()
-when "funding" then
-  puts this.make_funding()
+if param.nil? || param == "index"
+  html = this.make_index()
+  File.write("./dist/index.html", html)
+end
+
+if param.nil? || param == "funding"
+  html = this.make_funding()
+  File.write("./dist/funding.html", html)
 end
 
