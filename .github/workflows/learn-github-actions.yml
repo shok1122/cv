@@ -18,7 +18,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Build HTML
-        run:  ruby ./run.rb > dist/index.html
+        run:  ruby ./run.rb
       - uses: actions/upload-pages-artifact@v1
         with:
           path: ./dist
