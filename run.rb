@@ -338,17 +338,17 @@ class XXX
   end
 
   def make_funding()
-    funding_list = YAML.load_file('./funding.yaml').map { |x| x['number'] }
+    funds = YAML.load_file('./funding.yaml')
 
     papers = YAML.load_file('./paper.yaml').find_all { |x|
-      x['kaken'].nil? == false
+      x['funds'].nil? == false
     }.sort_by { |x|
       to_date(x['date'])
     }.reverse
 
     funded_papers = {}
     papers.each do |x|
-      x['kaken'].each do |x_kaken_no|
+      x['funds'].each do |x_kaken_no|
         funded_papers[x_kaken_no] = [] unless funded_papers.has_key?(x_kaken_no)
         funded_papers[x_kaken_no].append(x)
       end

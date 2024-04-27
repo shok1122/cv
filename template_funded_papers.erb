@@ -3,29 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV</title>
-  <style>
-  body {
-    margin: 10%;
-    font-size: 1.2em;
-    font-family: Times New Roman;
-  }
-  ol li {
-    padding: 0.4em 0em;
-  }
-  table.career tr td:first-child {
-    width: 220px
-  }
-  </style>
+  <title>Funding</title>
+  <link href="style.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body>
-<%- funded_papers.each do |x_kaken_no, x_papers| -%>
-  <h2><%=x_kaken_no%></h2>
-  <ul>
-  <%- x_papers.each do |x_paper| -%>
-    <li><%=make_biblio(x_paper)%></li>
-  <%- end -%>
-  </ul>
+<%- funds.each do |x_fund| -%>
+  <h2><%=x_fund['number']%></h2>
+  <table class="funding">
+    <tr>
+      <th>研究種目</th>
+      <td><%=x_fund['category']%></td>
+    </tr>
+    <tr>
+      <th>研究課題名</th>
+      <td><%=x_fund['title']%></td>
+    </tr>
+    <tr>
+      <th>研究成果</th>
+      <td><ol>
+        <%- funded_papers[x_fund['number']].each do |x_paper| -%>
+        <li><%=make_biblio(x_paper)%></li>
+        <%- end -%>
+      </ol> </td>
+    </tr>
+  </table>
 <%- end -%>
 </body>
 </html>

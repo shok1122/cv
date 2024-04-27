@@ -39,6 +39,9 @@
   page: 
     start: 1
     end: 8
+  funds:
+    - '22K17881'
+
 -
   key: inayoshi
   lang: en
@@ -125,6 +128,8 @@
     start: 1495
     end: 1498
   doi: 'https://doi.org/10.1587/transinf.2022OFL0001'
+  funds:
+    - 22K17881
 
 -
   key: kumagai2023distributed
@@ -147,6 +152,8 @@
     start: 1
     end: 20
   doi: 'https://doi.org/10.1155/2023/9559439'
+  funds:
+    - 22K17881
 
 -
   key: inayoshi2023execution
@@ -191,6 +198,8 @@
     start: 1
     end: 15
   doi: 'https://doi.org/10.1016/j.bcra.2023.100126'
+  funds:
+    - 22K17881
 
 -
   key: inayoshi2022plug
@@ -379,6 +388,8 @@
     start: 135742
     end: 135757
   doi: 'https://doi.org/10.1109/ACCESS.2020.3011137'
+  funds:
+    - 19K24342
 
 -
   key: inayoshi2019prevention
@@ -594,6 +605,8 @@
   page: 
     start:
     end:
+  funds:
+    - 22K17881
 
 -
   key: matsuura2023effectiveness
@@ -676,6 +689,8 @@
   page: 
     start:
     end:
+  funds:
+    - 22K17881
 
 -
   key: tokuda2023decentralized
@@ -696,6 +711,8 @@
   page: 
     start: 1
     end: 8
+  funds:
+    - 22K17881
 
 -
   key: azuma2023data
@@ -1024,6 +1041,8 @@
   page: 
     start: 307
     end: 312
+  funds:
+    - 19K24342
 
 -
   key: nishimura2019iot
@@ -1115,6 +1134,8 @@
   page: 
     start: 539
     end: 546
+  funds:
+    - 19K24342
 
 -
   key: matsuda2019tpm
