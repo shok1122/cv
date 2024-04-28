@@ -57,34 +57,53 @@
       <li><%=make_award(x)%></li>
     <%- end -%>
   </ul>
+
+  <h2>査読付き論文誌論文</h2>
   <ol>
-    <h2>査読付き論文誌論文</h2>
     <%- journal.each do |x| -%>
-      <li><%=make_biblio(x)%></li>
+    <li><%=make_biblio(x)%></li>
     <%- end -%>
-    <h2>査読付き国際会議論文</h2>
+  </ol>
+
+  <h2>査読付き国際会議論文</h2>
+  <ol>
     <%- proceedings.each do |x| -%>
-      <li><%=make_biblio(x)%></li>
+    <li><%=make_biblio(x)%></li>
     <%- end -%>
-    <h2>国内会議論文（査読無）</h2>
+  </ol>
+
+  <h2>国内会議論文（査読無）</h2>
+  <ol>
     <%- proceedings_jp.each do |x| -%>
-      <li><%=make_biblio(x)%></li>
+    <li><%=make_biblio(x)%></li>
     <%- end -%>
-    <h2>口頭発表</h2>
+  </ol>
+
+  <h2>口頭発表</h2>
+  <ol>
     <%- oral.each do |x| -%>
-      <li><%=make_biblio(x)%></li>
+    <li><%=make_biblio(x)%></li>
     <%- end -%>
-    <h2>ポスター発表</h2>
+  </ol>
+
+  <h2>ポスター発表</h2>
+  <ol>
     <%- poster.each do |x| -%>
-      <li><%=make_biblio(x)%></li>
+    <li><%=make_biblio(x)%></li>
     <%- end -%>
-    <h2>招待講演</h2>
+  </ol>
+
+  <h2>招待講演</h2>
+  <ol>
     <%- speech.each do |x| -%>
-      <li><%=make_biblio(x)%></li>
+    <li><%=make_biblio(x)%></li>
     <%- end -%>
-    <h2>解説記事</h2>
+  </ol>
+
+  <h2>解説記事</h2>
+  <ol>
     <%- article.each do |x| -%>
-      <li><%=make_biblio(x)%></li>
+    <li><%=make_biblio(x)%></li>
     <%- end -%>
   </ol>
 </body>
