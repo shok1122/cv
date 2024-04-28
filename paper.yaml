@@ -261,6 +261,10 @@
     start: 1499
     end: 1511
   doi: 'https://doi.org/10.20729/00220095'
+  award:
+    title: 情報処理学会論文誌ジャーナル/JIP特選論文
+    org: 情報処理学会
+    link: https://www.ipsj.or.jp/award/ssp_award.html
 
 -
   key: inayoshi2022value
@@ -663,8 +667,9 @@
     y: 2023
     m: 10
   award:
-    title: 優秀論文賞
-    org: CSS2023
+    title: CSS2023 優秀論文賞
+    org: コンピュータセキュリティシンポジウム2023（CSS2023）
+    link: https://www.iwsec.org/css/2023/award.html
 
 -
   key: kado2023blockchain
@@ -818,6 +823,10 @@
   page: 
     start: 1
     end: 8
+  award:
+    title: CSEC優秀研究賞
+    org: CSEC研究会
+    link: https://www.ipsj.or.jp/award/csec-award.html
 
 -
   key: shiraishi2021report

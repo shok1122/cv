@@ -4,13 +4,21 @@ require 'yaml'
 
 class Award
   def initialize(_data)
-    @data = _data['award']
-    @title = @data['title']
-    @org = @data['org']
+    @data = _data
+    @title = _data['title']
+    @date = _data['date']
+    @year = @date['y']
+    @month = @date['m']
+    @award = _data['award']
+    @award_org = @award['org']
+    @award_title = @award['title']
+    @award_link = @award['link']
+
   end
 
   def biblio()
-    return "#{@org}, #{@title}"
+    xxx = XXX.new
+    return "#{@year}/#{@month}, <a href=#{@award_link}>#{@award_title}</a>, #{@award_org}<br>#{xxx.make_biblio(@data)}"
   end
 end
 
@@ -316,7 +324,7 @@ class XXX
     proceedings = paper.find_all { |v| v['type'] == "proceedings" && v['lang'] == 'en' }.sort_by{|x| to_date(x['date']) }.reverse
     proceedings_jp = paper.find_all { |v| v['type'] == "proceedings" && v['lang'] == 'jp' }.sort_by{|x| to_date(x['date']) }.reverse
     article = paper.find_all { |v| v['type'] == "article" }.sort_by{|x| to_date(x['date']) }.reverse
-    award = paper.find_all { |v| v['award'].nil? == false }
+    award = paper.find_all { |v| v['award'].nil? == false }.sort_by{ |x| to_date(x['date']) }.reverse
 
     presentation = YAML.load_file('./presentation.yaml')
     poster = presentation.find_all { |v| v['type'] == 'poster' }.sort_by{ |x| x['year']}.reverse
