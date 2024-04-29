@@ -318,6 +318,14 @@ class XXX
     return Date.new(y, m, d)
   end
 
+  def load_paper()
+    return YAML.load_file('./paper.yaml')
+  end
+
+  def load_presentation()
+    return YAML.load_file('./presentation.yaml')
+  end
+
   def make_index()
     paper = YAML.load_file('./paper.yaml')
     journal = paper.find_all { |v| v['type'] == "journal" }.sort_by{|x| to_date(x['date']) }.reverse
@@ -346,22 +354,25 @@ class XXX
   end
 
   def make_funding()
-    funds = YAML.load_file('./funding.yaml')
-
-    papers = YAML.load_file('./paper.yaml').find_all { |x|
-      x['funds'].nil? == false
-    }.sort_by { |x|
+    tmp = (
+      load_paper().find_all { |x|
+        x['funds'].nil? == false
+      } + load_presentation().find_all { |x|
+        x['funds'].nil? == false
+      }
+    ).sort_by { |x|
       to_date(x['date'])
     }.reverse
 
-    funded_papers = {}
-    papers.each do |x|
+    funded_publications = {}
+    tmp.each do |x|
       x['funds'].each do |x_kaken_no|
-        funded_papers[x_kaken_no] = [] unless funded_papers.has_key?(x_kaken_no)
-        funded_papers[x_kaken_no].append(x)
+        funded_publications[x_kaken_no] = [] unless funded_publications.has_key?(x_kaken_no)
+        funded_publications[x_kaken_no].append(x)
       end
     end
 
+    funds = YAML.load_file('./funding.yaml')
     File.open('./template_funded_papers.erb') do |f|
       text = ERB.new(f.read, trim_mode: '%-').result(binding)
       return text
