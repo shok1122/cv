@@ -340,9 +340,9 @@ class XXX
     award = paper.find_all { |v| v['award'].nil? == false }.sort_by{ |x| to_date(x['date']) }.reverse
 
     presentation = YAML.load_file('./presentation.yaml')
-    poster = presentation.find_all { |v| v['type'] == 'poster' }.sort_by{ |x| x['year']}.reverse
-    oral = presentation.find_all { |v| v['type'] == 'oral' }.sort_by{ |x| x['year']}.reverse
-    speech = presentation.find_all { |v| v['type'] == 'speech' }.sort_by{ |x| x['year']}.reverse
+    poster = presentation.find_all { |v| v['type'] == 'poster' }.sort_by{ |x| to_date(x['date']) }.reverse
+    oral = presentation.find_all { |v| v['type'] == 'oral' }.sort_by{ |x| to_date(x['date']) }.reverse
+    speech = presentation.find_all { |v| v['type'] == 'speech' }.sort_by{ |x| to_date(x['date']) }.reverse
 
     funding = YAML.load_file('./funding.yaml')
     funding_principal = funding.find_all { |v| v['role'] == 'principal' }
