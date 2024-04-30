@@ -198,6 +198,7 @@ class BiblioPaper < Biblio
     @number = _data['number']
     @page = (_data['page'].nil? || _data['page']['start'].nil? || _data['page']['start'].nil?) ? nil : _data['page']
     @doi = _data['doi']
+    @award = _data['award']
 
     super(_data, _name)
   end
@@ -212,7 +213,7 @@ class BiblioPaper < Biblio
   end
 
   def biblio()
-    return "#{author}#{title}#{journal}#{volume}#{number}#{page}#{date}. #{doi} #{tba}".strip
+    return "#{author}#{title}#{journal}#{volume}#{number}#{page}#{date}.#{doi}#{award}#{tba}".strip
   end
 
   def journal()
@@ -233,6 +234,10 @@ class BiblioPaper < Biblio
 
   def doi()
     return @doi.nil? ? "" : " <a href=https://doi.org/#{@doi} target=\"_blank\">doi:#{@doi}</a>"
+  end
+
+  def award()
+    return @award.nil? ? "" : " [<b>#{@award['title']}</b>]"
   end
 
 end
