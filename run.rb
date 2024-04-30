@@ -212,7 +212,7 @@ class BiblioPaper < Biblio
   end
 
   def biblio()
-    return "#{author}#{title}#{journal}#{volume}#{number}#{page}#{date}. #{tba}#{doi}".strip
+    return "#{author}#{title}#{journal}#{volume}#{number}#{page}#{date}. #{doi} #{tba}".strip
   end
 
   def journal()
@@ -232,7 +232,7 @@ class BiblioPaper < Biblio
   end
 
   def doi()
-    return @doi.nil? ? "" : " <a href=#{@doi} target=\"_blank\">#{@doi}</a>"
+    return @doi.nil? ? "" : " <a href=https://doi.org/#{@doi} target=\"_blank\">doi:#{@doi}</a>"
   end
 
 end

@@ -127,7 +127,7 @@
   page:
     start: 1495
     end: 1498
-  doi: 'https://doi.org/10.1587/transinf.2022OFL0001'
+  doi: '10.1587/transinf.2022OFL0001'
   funds:
     - 22K17881
 
@@ -151,7 +151,7 @@
   page:
     start: 1
     end: 20
-  doi: 'https://doi.org/10.1155/2023/9559439'
+  doi: '10.1155/2023/9559439'
   funds:
     - 22K17881
 
@@ -174,7 +174,7 @@
   page:
     start: 10730
     end: 10750
-  doi: 'https://doi.org/10.1109/ACCESS.2023.3240724'
+  doi: '10.1109/ACCESS.2023.3240724'
 
 -
   key: ezawa2023blockchain
@@ -197,7 +197,7 @@
   page:
     start: 1
     end: 15
-  doi: 'https://doi.org/10.1016/j.bcra.2023.100126'
+  doi: '10.1016/j.bcra.2023.100126'
   funds:
     - 22K17881
 
@@ -260,7 +260,7 @@
   page:
     start: 1499
     end: 1511
-  doi: 'https://doi.org/10.20729/00220095'
+  doi: '10.20729/00220095'
   award:
     title: 情報処理学会論文誌ジャーナル/JIP特選論文
     org: 情報処理学会
@@ -287,7 +287,7 @@
   page:
     start: 1127
     end: 1149
-  doi: 'https://doi.org/10.1007/s10207-022-00603-9'
+  doi: '10.1007/s10207-022-00603-9'
 
 -
   key: yamamoto2021firmpot
@@ -391,7 +391,7 @@
   page:
     start: 135742
     end: 135757
-  doi: 'https://doi.org/10.1109/ACCESS.2020.3011137'
+  doi: '10.1109/ACCESS.2020.3011137'
   funds:
     - 19K24342
 
@@ -462,7 +462,7 @@
   page:
     start: 1052
     end: 1061
-  doi: 'https://doi.org/10.1587/transinf.2015CYP0012'
+  doi: '10.1587/transinf.2015CYP0012'
 
 -
   key: kakei2014tpm
