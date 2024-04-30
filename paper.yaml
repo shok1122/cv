@@ -505,6 +505,10 @@
   page:
     start: 2117
     end: 2129
+  award:
+    title: 学生論文奨励賞
+    org: 情報処理学会東海支部
+    link: https://www.ipsj-tokai.jp/jigyou/shourei/prizelist.html
 
 -
   key: kakei2012offline
