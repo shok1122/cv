@@ -19,38 +19,38 @@
   </style>
 </head>
 <body>
+  <h2>経歴</h2>
+  <h3>学歴</h3>
+  <table class="career">
+    <%- career_education.each do |x| -%>
+    <tr>
+      <%=make_biblio_career(x)%>
+    </tr>
+    <%- end -%>
+  </table>
+  <h3>職歴</h3>
+  <table class="career">
+    <%- career_work.each do |x| -%>
+    <tr>
+      <%=make_biblio_career(x)%>
+    </tr>
+    <%- end -%>
+  </table>
+  <h2>競争的研究資金</h2>
+  <h3>研究代表者</h3>
   <ul>
-    <h2>経歴</h2>
-    <h3>学歴</h3>
-    <table class="career">
-      <%- career_education.each do |x| -%>
-      <tr>
-        <%=make_biblio_career(x)%>
-      </tr>
-      <%- end -%>
-    </table>
-    <h3>職歴</h3>
-    <table class="career">
-      <%- career_work.each do |x| -%>
-      <tr>
-        <%=make_biblio_career(x)%>
-      </tr>
-      <%- end -%>
-    </table>
-  </ul>
-  <ul>
-    <h2>競争的研究資金</h2>
-    <h3>研究代表者</h3>
     <%- funding_principal.each do |x| -%>
-      <li><%=make_biblio_funding(x)%></li>
+    <li><%=make_biblio_funding(x)%></li>
     <%- end -%>
-    <!--
-    <h3>研究分担者</h3>
-    <%- funding_collaborator.each do |x| -%>
-      <li><%=make_biblio_funding(x)%></li>
-    <%- end -%>
-    -->
   </ul>
+  <!--
+  <h3>研究分担者</h3>
+  <ul>
+    <%- funding_collaborator.each do |x| -%>
+    <li><%=make_biblio_funding(x)%></li>
+    <%- end -%>
+  </ul>
+  -->
 
   <h2>受賞歴</h2>
   <ol>
