@@ -90,6 +90,10 @@
   funds:
     - 22K17881
   doi:
+  award:
+    title: CSS2024学生論文賞
+    org: コンピュータセキュリティシンポジウム2024（CSS2024）
+    link: https://www.iwsec.org/css/2024/award.html
 
 -
   key: tokuda2024formal
@@ -137,6 +141,10 @@
     end: 1171
   funds:
   doi:
+  award:
+    title: CSS2024学生論文賞
+    org: コンピュータセキュリティシンポジウム2024（CSS2024）
+    link: https://www.iwsec.org/css/2024/award.html
 
 -
   key: kato2024static
@@ -159,6 +167,10 @@
     end: 432
   funds:
   doi:
+  award:
+    title: CSS2024奨励賞
+    org: コンピュータセキュリティシンポジウム2024（CSS2024）
+    link: https://www.iwsec.org/css/2024/award.html
 
 -
   key: fujii2024design
