@@ -3,17 +3,162 @@
 #  lang: # en, jp
 #  type: # journal, proceedings
 #  review: true / false
-#  title: 
+#  title:
 #  author:
-#    - 
-#  journal: 
-#  year: 
-#  volume: 
-#  number: 
-#  page: 
+#    -
+#  journal:
+#  date:
+#    y:
+#    m:
+#  volume:
+#  number:
+#  page:
 #    start:
 #    end:
+#  funds:
+#    -
 #  doi:
+#  tba: true / false
+
+-
+  key: tokuda2024decentralized
+  lang: en
+  type: journal
+  review: true
+  title: Decentralized Data Usage Control with Confidential Data Processing on Trusted Execution Environment and Distributed Ledger Technology
+  author:
+    - S. Tokuda
+    - S. Kakei
+    - Y. Shiraishi
+    - S. Saito
+  journal: Proc. of 18th International Conference on Network and System Security (NSS2024)
+  date:
+    y: 2024
+    m: 11
+  volume:
+  number:
+  page:
+    start:
+    end:
+  funds:
+    - 22K17881
+  doi:
+  tba: true
+
+-
+  key: sakurai2024static
+  lang: jp
+  type: proceedings
+  review: false
+  title: AndroidアプリのNativeコードにおけるP-codeを利用したJNI呼び出しメソッドの識別
+  author:
+    - 桜井涼太
+    - 稲吉弘樹
+    - 掛井将平
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2024（CSS2024）予稿集
+  date:
+    y: 2024
+    m: 10
+  volume:
+  number:
+  page:
+    start: 425
+    end: 432
+  funds:
+  doi:
+
+-
+  key: makari2024design
+  lang: jp
+  type: proceedings
+  review: false
+  title: OpenID ConnectとEthereumを用いたユーザの同意に基づくアクセス制御手法の設計
+  author:
+    - 真狩智樹
+    - 掛井将平
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2024（CSS2024）予稿集
+  date:
+    y: 2024
+    m: 10
+  volume:
+  number:
+  page:
+    start: 650
+    end: 657
+  funds:
+    - 22K17881
+  doi:
+
+-
+  key: tokuda2024formal
+  lang: jp
+  type: proceedings
+  review: false
+  title: データ提供時の不安に注目した非中央集権型データ連携フレームワークの形式検証
+  author:
+    - 徳田祥太
+    - 掛井将平
+    - 白石善明
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2024（CSS2024）予稿集
+  date:
+    y: 2024
+    m: 10
+  volume:
+  number:
+  page:
+    start: 468
+    end: 475
+  funds:
+    - 22K17881
+  doi:
+
+-
+  key: kamiya2024methods
+  lang: jp
+  type: proceedings
+  review: false
+  title: デバッガ検知回避および不要なループからの脱出により例外発生マルウェアを実行継続させる動的解析手法
+  author:
+    - 神谷直輝
+    - 山根一真
+    - 掛井将平
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2024（CSS2024）予稿集
+  date:
+    y: 2024
+    m: 10
+  volume:
+  number:
+  page:
+    start: 1164
+    end: 1171
+  funds:
+  doi:
+
+-
+  key: kato2024static
+  lang: jp
+  type: proceedings
+  review: false
+  title: シンボリック実行による解析環境検知マルウェアの解析手法改善
+  author:
+    - 加藤俊樹
+    - 掛井将平
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2024（CSS2024）予稿集
+  date:
+    y: 2024
+    m: 10
+  volume:
+  number:
+  page:
+    start: 425
+    end: 432
+  funds:
+  doi:
 
 -
   key: fujii2024design
@@ -36,7 +181,7 @@
     m: 3
   volume: 2024-SPT-54
   number: 41
-  page: 
+  page:
     start: 1
     end: 8
   funds:
@@ -81,11 +226,11 @@
   date:
     y: 2024
     m:
-  volume: 
-  number: 
+  volume:
+  number:
   page:
-    start: 
-    end: 
+    start:
+    end:
   tba: true
 
 -
@@ -170,7 +315,7 @@
     y: 2023
     m: 1
   volume: 11
-  number: 
+  number:
   page:
     start: 10730
     end: 10750
@@ -303,8 +448,8 @@
   date:
     y: 2021
     m: 11
-  volume: 
-  number: 
+  volume:
+  number:
   page:
     start: 405
     end: 411
@@ -323,8 +468,8 @@
   date:
     y: 2021
     m: 10
-  volume: 
-  number: 
+  volume:
+  number:
   page:
     start: 545
     end: 550
@@ -345,8 +490,8 @@
   date:
     y: 2021
     m: 8
-  volume: 
-  number: 
+  volume:
+  number:
   page:
     start: 1
     end: 6
@@ -387,7 +532,7 @@
     y: 2020
     m: 7
   volume: 8
-  number: 
+  number:
   page:
     start: 135742
     end: 135757
@@ -411,8 +556,8 @@
   date:
     y: 2019
     m: 8
-  volume: 
-  number: 
+  volume:
+  number:
   page:
     start: 103
     end: 110
@@ -436,8 +581,8 @@
   date:
     y: 2019
     m: 8
-  volume: 
-  number: 
+  volume:
+  number:
   page:
     start: 111
     end: 118
@@ -525,8 +670,8 @@
   date:
     y: 2012
     m: 11
-  volume: 
-  number: 
+  volume:
+  number:
   page:
     start: 404
     end: 409
@@ -546,8 +691,8 @@
   date:
     y: 2012
     m: 12
-  volume: 
-  number: 
+  volume:
+  number:
   page:
     start: 64
     end: 69
@@ -567,9 +712,9 @@
   date:
     y: 2024
     m: 1
-  volume: 
-  number: 
-  page: 
+  volume:
+  number:
+  page:
     start:
     end:
 
@@ -582,14 +727,14 @@
   author:
     - 舟橋和哉
     - 掛井将平
-    - 齋藤彰一 
+    - 齋藤彰一
   journal: 2024年暗号と情報セキュリティシンポジウム（SCIS2024）予稿集
   date:
     y: 2024
     m: 1
-  volume: 
-  number: 
-  page: 
+  volume:
+  number:
+  page:
     start:
     end:
 
@@ -608,9 +753,9 @@
   date:
     y: 2023
     m: 10
-  volume: 
-  number: 
-  page: 
+  volume:
+  number:
+  page:
     start: 431
     end: 438
   funds:
@@ -630,9 +775,9 @@
   date:
     y: 2023
     m: 10
-  volume: 
-  number: 
-  page: 
+  volume:
+  number:
+  page:
     start: 628
     end: 635
 
@@ -650,9 +795,9 @@
   date:
     y: 2023
     m: 10
-  volume: 
-  number: 
-  page: 
+  volume:
+  number:
+  page:
     start:
     end:
 
@@ -693,9 +838,9 @@
   date:
     y: 2023
     m: 10
-  volume: 
-  number: 
-  page: 
+  volume:
+  number:
+  page:
     start: 727
     end: 734
   funds:
@@ -717,7 +862,7 @@
     m: 5
   volume: 2023-CSEC-101
   number: 17
-  page: 
+  page:
     start: 1
     end: 8
   funds:
@@ -735,14 +880,14 @@
     - 掛井将平
     - 廣友雅徳
     - 毛利公美
-    - 森井 昌克
-  journal: コ2023年暗号と情報セキュリティシンポジウム予稿集
+    - 森井昌克
+  journal: 2023年暗号と情報セキュリティシンポジウム予稿集
   date:
     y: 2023
     m: 1
-  volume: 
-  number: 
-  page: 
+  volume:
+  number:
+  page:
     start:
     end:
 
@@ -760,9 +905,9 @@
   date:
     y: 2022
     m: 10
-  volume: 
-  number: 
-  page: 
+  volume:
+  number:
+  page:
     start:
     end:
 
@@ -783,7 +928,7 @@
     m: 7
   volume: 2022-CSEC-98
   number: 13
-  page: 
+  page:
     start: 1
     end: 8
 
@@ -802,9 +947,9 @@
   date:
     y: 2021
     m: 10
-  volume: 
-  number: 
-  page: 
+  volume:
+  number:
+  page:
     start:
     end:
 
@@ -824,7 +969,7 @@
     m: 7
   volume: 2021-CSEC-094
   number: 2
-  page: 
+  page:
     start: 1
     end: 8
   award:
@@ -860,7 +1005,7 @@
     m: 7
   volume: 2021-CSEC-094
   number: 3
-  page: 
+  page:
     start: 1
     end: 8
 
@@ -879,9 +1024,9 @@
   date:
     y: 2021
     m: 6
-  volume: 
-  number: 
-  page: 
+  volume:
+  number:
+  page:
     start: 165
     end: 172
 
@@ -901,9 +1046,9 @@
   date:
     y: 2021
     m: 6
-  volume: 
-  number: 
-  page: 
+  volume:
+  number:
+  page:
     start:
     end:
 
@@ -921,9 +1066,9 @@
   date:
     y: 2021
     m: 3
-  volume: 
-  number: 
-  page: 
+  volume:
+  number:
+  page:
     start:
     end:
 
@@ -941,9 +1086,9 @@
   date:
     y: 2021
     m: 3
-  volume: 
-  number: 
-  page: 
+  volume:
+  number:
+  page:
     start:
     end:
 
@@ -961,9 +1106,9 @@
   date:
     y: 2020
     m: 10
-  volume: 
-  number: 
-  page: 
+  volume:
+  number:
+  page:
     start:
     end:
 
@@ -984,9 +1129,9 @@
   date:
     y: 2020
     m: 10
-  volume: 
-  number: 
-  page: 
+  volume:
+  number:
+  page:
     start:
     end:
 
@@ -1008,7 +1153,7 @@
     m: 3
   volume: 2020-CSEC-88
   number: 49
-  page: 
+  page:
     start: 1
     end: 8
 
@@ -1028,7 +1173,7 @@
     m: 3
   volume: 2020-CSEC-88
   number: 49
-  page: 
+  page:
     start: 1
     end: 8
 
@@ -1051,7 +1196,7 @@
     m: 3
   volume: 119
   number: 437
-  page: 
+  page:
     start: 307
     end: 312
   funds:
@@ -1074,9 +1219,9 @@
   date:
     y: 2019
     m: 10
-  volume: 
-  number: 
-  page: 
+  volume:
+  number:
+  page:
     start: 136
     end: 143
 
@@ -1097,9 +1242,9 @@
   date:
     y: 2019
     m: 10
-  volume: 
-  number: 
-  page: 
+  volume:
+  number:
+  page:
     start: 990
     end: 997
 
@@ -1119,9 +1264,9 @@
   date:
     y: 2019
     m: 10
-  volume: 
-  number: 
-  page: 
+  volume:
+  number:
+  page:
     start: 597
     end: 604
 
@@ -1142,9 +1287,9 @@
   date:
     y: 2019
     m: 10
-  volume: 
-  number: 
-  page: 
+  volume:
+  number:
+  page:
     start: 539
     end: 546
   funds:
@@ -1167,9 +1312,9 @@
   date:
     y: 2019
     m: 2
-  volume: 
-  number: 
-  page: 
+  volume:
+  number:
+  page:
     start: 479
     end: 480
 
@@ -1193,7 +1338,7 @@
     m: 11
   volume: 118
   number: 315
-  page: 
+  page:
     start: 39
     end: 44
 
@@ -1214,7 +1359,7 @@
     m: 11
   volume: 118
   number: 315
-  page: 
+  page:
     start: 79
     end: 84
 
@@ -1233,9 +1378,9 @@
   date:
     y: 2013
     m: 3
-  volume: 
-  number: 
-  page: 
+  volume:
+  number:
+  page:
     start: 595
     end: 596
 
@@ -1254,9 +1399,9 @@
   date:
     y: 2013
     m: 1
-  volume: 
-  number: 
-  page: 
+  volume:
+  number:
+  page:
     start:
     end:
 
@@ -1276,9 +1421,9 @@
   date:
     y: 2011
     m: 6
-  volume: 
-  number: 
-  page: 
+  volume:
+  number:
+  page:
     start: 1002
     end: 1015
 
@@ -1298,9 +1443,9 @@
   date:
     y: 2012
     m: 6
-  volume: 
-  number: 
-  page: 
+  volume:
+  number:
+  page:
     start: 619
     end: 620
 
