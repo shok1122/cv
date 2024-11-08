@@ -225,13 +225,14 @@
   journal: 電子情報通信学会論文誌D
   date:
     y: 2024
-    m:
+    m: 10
   volume:
-  number:
+  number: 10
   page:
-    start:
-    end:
-  tba: true
+    start: 474
+    end: 477
+  tba: false
+  doi: 10.14923/transinfj.2023LIL0003
 
 -
   key: kakei2023microsoft
