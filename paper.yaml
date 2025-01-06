@@ -718,15 +718,15 @@
     - 掛井将平
     - 徳田祥太
     - 齋藤彰一
-  journal: 2024年暗号と情報セキュリティシンポジウム（SCIS2024）予稿集
+  journal: 2024年暗号と情報セキュリティシンポジウム（SCIS2024）予稿集, 3F5-2
   date:
     y: 2024
     m: 1
   volume:
   number:
   page:
-    start:
-    end:
+    start: 1
+    end: 8
 
 -
   key: hunahashi2024fuzzing
