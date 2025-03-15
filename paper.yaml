@@ -22,6 +22,95 @@
 
 -
   key:
+  lang: # en, jp
+  type: # journal, proceedings
+  review: true / false
+  title:
+  author:
+    -
+  journal:
+  date:
+    y:
+    m:
+  volume:
+  number:
+  page:
+    start:
+    end:
+  funds:
+    -
+  doi:
+  tba: true / false
+
+-
+  key:
+  lang: # en, jp
+  type: # journal, proceedings
+  review: true / false
+  title:
+  author:
+    -
+  journal:
+  date:
+    y:
+    m:
+  volume:
+  number:
+  page:
+    start:
+    end:
+  funds:
+    -
+  doi:
+  tba: true / false
+
+-
+  key:
+  lang: # en, jp
+  type: # journal, proceedings
+  review: true / false
+  title:
+  author:
+    -
+  journal:
+  date:
+    y:
+    m:
+  volume:
+  number:
+  page:
+    start:
+    end:
+  funds:
+    -
+  doi:
+  tba: true / false
+
+-
+  key:
+  lang: jp
+  type: proceedings
+  review: true / false
+  title: テイント解析のためのLLMコンパイラの性能について
+  author:
+    - 濱口健人
+    - 瀧田愼
+    - 下向井睦希
+    - 葛野弘樹
+    - 掛井将平
+    - 白石善明
+  journal: 信学技報
+  date:
+    y: 2025
+    m: 3
+  volume: 124
+  number: 422
+  page:
+    start: 211
+    end: 218
+
+-
+  key:
   lang: jp
   type: proceedings
   review: false
