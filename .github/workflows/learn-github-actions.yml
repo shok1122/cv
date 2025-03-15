@@ -11,14 +11,17 @@ jobs:
     container:
       image: shok1122/ruby:3.2.2
     permissions:
-      contents: write
+      contents: write  # リポジトリの書き込み権限を付与
+      pages: write     # GitHub Pages への書き込み権限を付与
+      id-token: write  # OIDC 認証のために必要
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Build HTML
         run:  ruby ./run.rb
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Upload artifact to GitHub Pages
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          path: ./dist  # 生成された HTML ファイルのディレクトリ
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v2
