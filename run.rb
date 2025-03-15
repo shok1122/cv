@@ -361,9 +361,9 @@ class XXX
   def make_funding()
     tmp = (
       load_paper().find_all { |x|
-        x['funds'].nil? == false
+        x['funds'].nil? == false && x['funds'][0].nil? == false
       } + load_presentation().find_all { |x|
-        x['funds'].nil? == false
+        x['funds'].nil? == false && x['funds'][0].nil? == false
       }
     ).sort_by { |x|
       to_date(x['date'])
