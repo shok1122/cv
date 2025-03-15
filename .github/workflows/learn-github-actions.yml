@@ -20,8 +20,10 @@ jobs:
       - name: Build HTML
         run:  ruby ./run.rb
       - name: Upload artifact to GitHub Pages
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./dist  # 生成された HTML ファイルのディレクトリ
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
