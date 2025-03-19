@@ -21,6 +21,35 @@
 #  tba: true / false
 
 -
+  key: fujii2025aplusblock
+  lang: en
+  type: journal
+  review: true
+  title: 'A+Block: Web Security Add-on Service by Just Pointing to Your Website URL'
+  author:
+    - S. Fujii
+    - S. Kakei
+    - M. Hirotomo
+    - M. Takita
+    - Y. Shiraishi
+    - M. Mohri
+    - H. Kuzuno
+    - M. Morii
+  journal: IEICE Transactions on Information and Systems
+  date:
+    y: 2025
+    m: 8
+  volume: E108-D
+  number: 8
+  page:
+    start:
+    end:
+  funds:
+    - 22K17881
+  doi: 10.1587/transinf.2024DAK0002
+  tba: true
+
+-
   key: tokuda2025data
   lang: jp
   type: proceedings
@@ -186,7 +215,7 @@
 
 -
   key: umemura2024formal
-  lang: en
+  lang: jp
   type: proceedings
   review: false
   title: Formal Verification of IND-CPA Security of HQC in EasyCrypt
