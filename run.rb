@@ -85,21 +85,19 @@ class Biblio
     return @title.nil? ? "" : ", #{@@LQUOTE}#{@title}#{@@RQUOTE}"
   end
 
-  def author_jp()
-    raise if @author.find { |x| (x == @name) }.nil?
-    authors = @author.map { |x| (x == @name) ? "<u>#{x}</u>" : x }
-    return authors.join(", ")
-  end
-
-  def author_en()
-    raise if @author.find { |x| (x == @name) }.nil?
-    authors = @author.map { |x| (x == @name) ? "<u>#{x}</u>" : x }
-    if authors.length > 2
-      return authors[0..-2].join(', ') + ", and #{authors[-1]}"
-    elsif authors.length == 2
-      return "#{authors[0]} and #{authors[1]}"
-    elsif authors.length == 1
-      return "#{authors[0]}"
+  def author_x()
+    if @author.find { |x| (x == @@NAME_EN) }.nil?
+      authors = @author.map { |x| (x == @name) ? "<u>#{x}</u>" : x }
+      return authors.join(", ")
+    else
+      authors = @author.map { |x| (x == @name) ? "<u>#{x}</u>" : x }
+      if authors.length > 2
+        return authors[0..-2].join(', ') + ", and #{authors[-1]}"
+      elsif authors.length == 2
+        return "#{authors[0]} and #{authors[1]}"
+      elsif authors.length == 1
+        return "#{authors[0]}"
+      end
     end
   end
 
@@ -169,7 +167,7 @@ class BiblioPresentationEn < BiblioPresentation
   end
 
   def author()
-    return author_en()
+    return author_x()
   end
 
   def conference()
@@ -185,7 +183,7 @@ class BiblioPresentationJp < BiblioPresentation
   end
 
   def author()
-    return author_jp()
+    return author_x()
   end
 
 end
@@ -248,7 +246,7 @@ class BiblioPaperEn < BiblioPaper
   end
 
   def author()
-    return author_en()
+    return author_x()
   end
 
   def journal()
@@ -262,7 +260,7 @@ class BiblioPaperJp < BiblioPaper
   end
 
   def author()
-    return author_jp()
+    return author_x()
   end
 end
 
