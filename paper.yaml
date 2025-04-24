@@ -192,6 +192,10 @@
   page:
     start: 219
     end: 226
+  award:
+    title: 情報通信システムセキュリティ研究賞
+    org: 情報通信システムセキュリティ研究会
+    link: https://icss.ieice.org/award.html
 
 -
   key: fujii2025cloud
