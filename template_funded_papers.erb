@@ -21,8 +21,10 @@
     <tr>
       <th>研究成果</th>
       <td><ol>
-        <%- funded_publications[x_fund['number']].each do |x_paper| -%>
-        <li><%=make_biblio(x_paper)%></li>
+        <%- unless funded_publications[x_fund['number']].nil? -%>
+          <%- funded_publications[x_fund['number']].each do |x_paper| -%>
+          <li><%=make_biblio(x_paper)%></li>
+          <%- end -%>
         <%- end -%>
       </ol> </td>
     </tr>
