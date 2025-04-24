@@ -8,6 +8,19 @@
 
 -
   lang: jp
+  title: 'Webサービス間におけるパーソナルデータの流動性を高めるデータ処理基盤の開発'
+  role: principal
+  year:
+    start: '2025-04-01'
+    end: '2029-03-31'
+  category: 若手研究
+  number: 25K21199
+  fund: 学術研究助成基金助成金
+  institution: 日本学術振興会
+  url: 'https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-25K21199/'
+
+-
+  lang: jp
   title: 'データ提供者・利用者の相互信頼に基づく分散型データ連携フレームワークの開発'
   role: principal
   year:
