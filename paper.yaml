@@ -117,6 +117,9 @@
     end: 8
   funds:
     - 22K17881
+  award:
+    title: CSEC108優秀学生研究賞
+    org: CSEC研究会
 
 -
   key: kamakura2025enclave
@@ -140,6 +143,9 @@
     end: 8
   funds:
     - 22K17881
+  award:
+    title: CSEC108優秀学生研究賞
+    org: CSEC研究会
 
 -
   key:
