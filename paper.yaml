@@ -21,6 +21,30 @@
 #  tba: true / false
 
 -
+  key: kakei2025investigating
+  lang: en
+  type: proceedings
+  review: true
+  title: 'Investigating the Inconsistency of Errors Between CAs in the Wild for Trustworthiness Evaluation in Cross-Domain Authentication'
+  author:
+    - S. Kakei
+    - Y. Shiraishi
+    - S. Saito
+  journal: Procedia Computer Science
+  date:
+    y: 2025
+    m: 9
+  volume: 
+  number: 
+  page:
+    start:
+    end:
+  funds:
+    - 22K17881
+  doi: 
+  tba: true
+
+-
   key: fujii2025aplusblock
   lang: en
   type: journal
