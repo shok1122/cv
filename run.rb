@@ -196,7 +196,7 @@ class BiblioPaper < Biblio
     @number = _data['number']
     @page = (_data['page'].nil? || _data['page']['start'].nil? || _data['page']['start'].nil?) ? nil : _data['page']
     @doi = _data['doi']
-    @award = (_data['award'].nil? || @award['title'].nil?) ? nil : _data['award']
+    @award = (_data['award'].nil? || _data['award']['title'].nil?) ? nil : _data['award']
 
     super(_data, _name)
   end
