@@ -440,7 +440,7 @@
     end: 18
   funds:
     - 22K17881
-  doi:
+  doi: '10.1007/978-981-96-3531-3_7'
 
 -
   key: sakurai2024static
@@ -615,6 +615,7 @@
   page:
     start: 43
     end: 53
+  doi: '10.1145/3647632.3647991'
 
 -
   key: hirotomo2024cloud
@@ -773,6 +774,7 @@
   page:
     start: 24
     end: 34
+  doi: '10.1109/scam55253.2022.00008'
 
 -
   key: kakei2022granting
@@ -793,6 +795,7 @@
   page:
     start: 290
     end: 308
+  doi: '10.1007/978-3-031-25538-0_16'
 
 -
   key: yamamoto2022iot
@@ -861,6 +864,7 @@
   page:
     start: 405
     end: 411
+  doi: '10.1109/candarw53999.2021.00074'
 
 -
   key: kakei2021simplifying
@@ -881,6 +885,7 @@
   page:
     start: 545
     end: 550
+  doi: '10.1109/ICTC52510.2021.9620853'
 
 -
   key: inayoshi2021vtdroid
@@ -903,6 +908,7 @@
   page:
     start: 1
     end: 6
+  doi: '10.1145/3465481.3465759'
 
 -
   key: shiraishi2020blockchain
@@ -969,6 +975,7 @@
   page:
     start: 103
     end: 110
+  doi: '10.1109/AsiaJCIS.2019.00005'
 
 -
   key: ezawa2019designing
@@ -994,6 +1001,7 @@
   page:
     start: 111
     end: 118
+  doi: '10.1109/AsiaJCIS.2019.00006'
 
 -
   key: kakei2016ssl
@@ -1104,6 +1112,7 @@
   page:
     start: 64
     end: 69
+  doi: '10.1109/ICCSCE.2012.6487179'
 
 -
   key: makisuna2024web
