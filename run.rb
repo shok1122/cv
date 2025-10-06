@@ -235,7 +235,11 @@ class BiblioPaper < Biblio
   end
 
   def award()
-    return @award.nil? ? "" : " [<b>#{@award['title']}</b>]"
+    if @award.nil? == true or @award['title'].nil? == true then
+      return ""
+    else
+      return " [<b>#{@award['title']}</b>]"
+    end
   end
 
 end
