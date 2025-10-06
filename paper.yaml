@@ -71,7 +71,7 @@
   funds:
     - 22K17881
   doi: 10.1587/transinf.2024DAK0002
-  tba: true
+  tba: false
 
 -
   key: tokuda2025data
