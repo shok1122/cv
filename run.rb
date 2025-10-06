@@ -196,7 +196,7 @@ class BiblioPaper < Biblio
     @number = _data['number']
     @page = (_data['page'].nil? || _data['page']['start'].nil? || _data['page']['start'].nil?) ? nil : _data['page']
     @doi = _data['doi']
-    @award = _data['award']
+    @award = (_data['award'].nil? || @award['title'].nil?) ? nil : _data['award']
 
     super(_data, _name)
   end
@@ -235,11 +235,7 @@ class BiblioPaper < Biblio
   end
 
   def award()
-    if @award.nil? == true or @award['title'].nil? == true then
-      return ""
-    else
-      return " [<b>#{@award['title']}</b>]"
-    end
+    return @award.nil? ? "" : " [<b>#{@award['title']}</b>]"
   end
 
 end
@@ -339,7 +335,7 @@ class XXX
     proceedings = paper.find_all { |v| v['type'] == "proceedings" && v['lang'] == 'en' }.sort_by{|x| to_date(x['date']) }.reverse
     proceedings_jp = paper.find_all { |v| v['type'] == "proceedings" && v['lang'] == 'jp' }.sort_by{|x| to_date(x['date']) }.reverse
     article = paper.find_all { |v| v['type'] == "article" }.sort_by{|x| to_date(x['date']) }.reverse
-    award = paper.find_all { |v| v['award'].nil? == false }.sort_by{ |x| to_date(x['date']) }.reverse
+    award = paper.find_all { |v| v['award'].nil? == false and v['award']['title'].nil? == false }.sort_by{ |x| to_date(x['date']) }.reverse
 
     presentation = YAML.load_file('./presentation.yaml')
     poster = presentation.find_all { |v| v['type'] == 'poster' }.sort_by{ |x| to_date(x['date']) }.reverse
