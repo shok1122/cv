@@ -17,8 +17,133 @@
 #    end:
 #  funds:
 #    -
+#  award:
+#    title: 
+#    org: 
 #  doi:
 #  tba: true / false
+
+-
+  key:
+  lang: jp
+  type: proceedings
+  review: false
+  title: 'パッカーの自動解凍に向けた機械学習による解凍処理識別手法の提案'
+  author:
+    - 山根一真
+    - 掛井将平
+    - 白石善明
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2025（CSS2025）予稿集
+  date:
+    y: 2025
+    m: 10
+  volume:
+  number:
+  page:
+    start:
+    end:
+  award:
+    title: 
+    org: 
+
+-
+  key:
+  lang: jp
+  type: proceedings
+  review: false
+  title: 'TPMを用いたEnclaveアプリケーション実行端末の多層認証プロトコル'
+  author:
+    - 鎌倉仁
+    - 掛井将平
+    - 白石善明
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2025（CSS2025）予稿集
+  date:
+    y: 2025
+    m: 10
+  volume:
+  number:
+  page:
+    start:
+    end:
+  funds:
+    - 25K21199
+    - 23K03847
+  award:
+    title: 
+    org: 
+-
+  key:
+  lang: jp
+  type: proceedings
+  review: false
+  title: 'ソケット通信によるデータフローを考慮したIoTデバイス向け動的テイント解析システムの開発'
+  author:
+    - 東政澄
+    - 掛井将平
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2025（CSS2025）予稿集
+  date:
+    y: 2025
+    m: 10
+  volume:
+  number:
+  page:
+    start:
+    end:
+  award:
+    title: 
+    org: 
+
+-
+  key:
+  lang: jp
+  type: proceedings
+  review: false
+  title: 'Reservoir Computingを用いたログパターンの変化に適応可能なログベース異常検知システム'
+  author:
+    - 佐々木康太
+    - 掛井将平
+    - 白石善明
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2025（CSS2025）予稿集
+  date:
+    y: 2025
+    m: 10
+  volume:
+  number:
+  page:
+    start:
+    end:
+  funds:
+    - 25K21199
+  award:
+    title: 
+    org: 
+
+-
+  key:
+  lang: jp
+  type: proceedings
+  review: false
+  title:
+  author:
+    - 山根一真
+    - 掛井将平
+    - 齋藤彰一
+  journal: 研究報告コンピュータセキュリティ（CSEC）
+  date:
+    y: 2025
+    m: 8
+  volume: 2025-CSEC-109
+  number: 9 
+  page:
+    start: 1
+    end: 8
+  award:
+    title: CSEC109優秀学生研究賞
+    org: CSEC研究会
 
 -
   key: kakei2025investigating
