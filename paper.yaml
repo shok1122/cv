@@ -1,3 +1,4 @@
+# 25 lines
 #-
 #  key:
 #  lang: # en, jp
@@ -20,11 +21,47 @@
 #  award:
 #    title: 
 #    org: 
+#    link:
 #  doi:
 #  tba: true / false
 
 -
-  key:
+  key: mima2025benign
+  lang: jp # en, jp
+  type: proceedings # journal, proceedings
+  review: false
+  title: '模擬企業環境での業務シナリオ自動実行による良性データセット構築手法'
+  author:
+    - 美間康佑
+    - 鈴木春洋
+    - 瀧田愼
+    - 葛野弘樹
+    - 掛井将平
+    - 廣友雅徳
+    - 梅村勇貴
+    - 古本啓祐
+    - 福田洋治
+    - 毛利公美
+    - 白石善明
+  journal: 信学技報
+  date:
+    y: 2025
+    m: 11
+  volume: 125
+  number: 223
+  page:
+    start: 31
+    end: 38
+  funds:
+    - 25K21199
+  award:
+    title: 
+    org: 
+    link:
+  doi:
+
+-
+  key: yamane2025packer
   lang: jp
   type: proceedings
   review: false
@@ -32,7 +69,6 @@
   author:
     - 山根一真
     - 掛井将平
-    - 白石善明
     - 齋藤彰一
   journal: コンピュータセキュリティシンポジウム2025（CSS2025）予稿集
   date:
@@ -41,14 +77,15 @@
   volume:
   number:
   page:
-    start:
-    end:
+    start: 1408
+    end: 1415
   award:
-    title: 
-    org: 
+    title: CSS2025学生論文賞
+    org: コンピュータセキュリティシンポジウム2025（CSS2025）
+    link: https://www.iwsec.org/css/2025/award.html
 
 -
-  key:
+  key: kamakura2025tpm
   lang: jp
   type: proceedings
   review: false
@@ -65,8 +102,8 @@
   volume:
   number:
   page:
-    start:
-    end:
+    start: 1509
+    end: 516
   funds:
     - 25K21199
     - 23K03847
@@ -74,7 +111,7 @@
     title: 
     org: 
 -
-  key:
+  key: azuma2025socket
   lang: jp
   type: proceedings
   review: false
@@ -90,14 +127,14 @@
   volume:
   number:
   page:
-    start:
-    end:
+    start: 969
+    end: 976
   award:
     title: 
     org: 
 
 -
-  key:
+  key: sasaki2025reservoir
   lang: jp
   type: proceedings
   review: false
@@ -114,8 +151,8 @@
   volume:
   number:
   page:
-    start:
-    end:
+    start: 899
+    end: 906
   funds:
     - 25K21199
   award:
@@ -123,11 +160,11 @@
     org: 
 
 -
-  key:
+  key: yamane2025lightweight
   lang: jp
   type: proceedings
   review: false
-  title:
+  title: パッカーの自動解凍に向けた軽量な細粒度フック手法の提案
   author:
     - 山根一真
     - 掛井将平
@@ -135,7 +172,7 @@
   journal: 研究報告コンピュータセキュリティ（CSEC）
   date:
     y: 2025
-    m: 8
+    m: 5
   volume: 2025-CSEC-109
   number: 9 
   page:
@@ -159,15 +196,14 @@
   date:
     y: 2025
     m: 9
-  volume: 
+  volume: 270
   number: 
   page:
-    start:
-    end:
+    start: 1002
+    end: 1011
   funds:
     - 22K17881
-  doi: 
-  tba: true
+  doi: '10.1016/j.procs.2025.09.221'
 
 -
   key: fujii2025aplusblock
