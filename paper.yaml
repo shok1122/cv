@@ -1149,11 +1149,11 @@
   date:
     y: 2024
     m: 1
-  volume:
-  number:
-  page:
-    start:
-    end:
+  volume: 
+  number: 
+  page: 
+    start: 1
+    end: 8
 
 -
   key: tokuda2023data
@@ -1212,11 +1212,11 @@
   date:
     y: 2023
     m: 10
-  volume:
-  number:
-  page:
-    start:
-    end:
+  volume: 
+  number: 
+  page: 
+    start: 636
+    end: 643
 
 -
   key: inayoshi2023semi
@@ -1232,6 +1232,9 @@
   date:
     y: 2023
     m: 10
+  page:
+    start: 849
+    end: 856
   award:
     title: CSS2023 優秀論文賞
     org: コンピュータセキュリティシンポジウム2023（CSS2023）
@@ -1302,11 +1305,11 @@
   date:
     y: 2023
     m: 1
-  volume:
-  number:
-  page:
-    start:
-    end:
+  volume: 
+  number: 
+  page: 
+    start: 1
+    end: 8
 
 -
   key: inayoshi2022study
@@ -1322,11 +1325,11 @@
   date:
     y: 2022
     m: 10
-  volume:
-  number:
-  page:
-    start:
-    end:
+  volume: 
+  number: 
+  page: 
+    start: 532
+    end: 539
 
 -
   key: oonishi2022computing
@@ -1364,11 +1367,11 @@
   date:
     y: 2021
     m: 10
-  volume:
-  number:
-  page:
-    start:
-    end:
+  volume: 
+  number: 
+  page: 
+    start: 952
+    end: 959
 
 -
   key: yamamoto2021framework
@@ -1463,11 +1466,11 @@
   date:
     y: 2021
     m: 6
-  volume:
-  number:
-  page:
-    start:
-    end:
+  volume: 
+  number: 
+  page: 
+    start: 1608
+    end: 1613
 
 -
   key: motoori2021logic
@@ -1523,11 +1526,11 @@
   date:
     y: 2020
     m: 10
-  volume:
-  number:
-  page:
-    start:
-    end:
+  volume: 
+  number: 
+  page: 
+    start: 346
+    end: 353
 
 -
   key: ezawa2020user
@@ -1546,11 +1549,11 @@
   date:
     y: 2020
     m: 10
-  volume:
-  number:
-  page:
-    start:
-    end:
+  volume: 
+  number: 
+  page: 
+    start: 137
+    end: 144
 
 -
   key: yoshino2020iot
