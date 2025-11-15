@@ -80,7 +80,7 @@
     start: 1408
     end: 1415
   award:
-    title: CSS2025学生論文賞
+    title: CSS学生論文賞
     org: コンピュータセキュリティシンポジウム2025（CSS2025）
     link: https://www.iwsec.org/css/2025/award.html
 
@@ -179,7 +179,7 @@
     start: 1
     end: 8
   award:
-    title: CSEC109優秀学生研究賞
+    title: CSEC優秀学生研究賞
     org: CSEC研究会
 
 -
@@ -303,7 +303,7 @@
   funds:
     - 22K17881
   award:
-    title: CSEC108優秀学生研究賞
+    title: CSEC優秀学生研究賞
     org: CSEC研究会
 
 -
@@ -329,7 +329,7 @@
   funds:
     - 22K17881
   award:
-    title: CSEC108優秀学生研究賞
+    title: CSEC優秀学生研究賞
     org: CSEC研究会
 
 -
@@ -524,7 +524,7 @@
     - 22K17881
   doi:
   award:
-    title: CSS2024学生論文賞
+    title: CSS学生論文賞
     org: コンピュータセキュリティシンポジウム2024（CSS2024）
     link: https://www.iwsec.org/css/2024/award.html
 
@@ -575,7 +575,7 @@
   funds:
   doi:
   award:
-    title: CSS2024学生論文賞
+    title: CSS学生論文賞
     org: コンピュータセキュリティシンポジウム2024（CSS2024）
     link: https://www.iwsec.org/css/2024/award.html
 
@@ -601,7 +601,7 @@
   funds:
   doi:
   award:
-    title: CSS2024奨励賞
+    title: CSS奨励賞
     org: コンピュータセキュリティシンポジウム2024（CSS2024）
     link: https://www.iwsec.org/css/2024/award.html
 
@@ -1272,7 +1272,7 @@
     start: 849
     end: 856
   award:
-    title: CSS2023 優秀論文賞
+    title: CSS優秀論文賞
     org: コンピュータセキュリティシンポジウム2023（CSS2023）
     link: https://www.iwsec.org/css/2023/award.html
 
