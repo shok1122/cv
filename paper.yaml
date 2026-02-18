@@ -26,6 +26,30 @@
 #  tba: true / false
 
 -
+  key: kakei2026vddpi
+  lang: en
+  type: journal
+  review: true
+  title: 'VDDPI: Verifiable Decentralized Data Processing Infrastructure for Data Usage Control and Confidential Data Processing'
+  author:
+    - S. Tokuda
+    - S. Kakei
+    - Y. Shiraishi
+    - S. Saito
+  journal: IEEE Transactions on Dependable and Secure Computing
+  date:
+    y: 2026
+    m: 2
+  volume: 
+  number: 
+  page:
+    start: 1
+    end: 17
+  funds:
+    - 22K17881
+  doi: '10.1109/TDSC.2026.3658309'
+
+-
   key: mima2025benign
   lang: jp # en, jp
   type: proceedings # journal, proceedings
