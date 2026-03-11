@@ -26,6 +26,55 @@
 #  tba: true / false
 
 -
+  key: kakei2025continuous
+  lang: jp
+  type: proceedings
+  review: false
+  title: 継続的セキュリティ監視に向けた脆弱性調査プロセスの自動化
+  author:
+    - 掛井将平
+    - 守屋賢知
+    - 伊藤宏隆
+    - 打矢隆弘
+    - 齋藤彰一
+    - 松尾啓志
+  journal: 大学ICT推進協議会2025年度年次大会予稿集
+  date:
+    y: 2025
+    m: 12
+  page:
+    start: 1
+    end: 8
+  doi:
+  tba: false
+
+-
+  key: miyagawa2025blind
+  lang: jp
+  type: proceedings
+  review: false
+  title: ブラインド署名を用いたスマートコントラクト代理実行の完全性保証方式
+  author:
+    - 宮川夏海
+    - 掛井将平
+    - 齋藤彰一
+  journal: 第88回全国大会講演論文集
+  date:
+    y:
+    m:
+  volume:
+  number:
+  page:
+    start: 1
+    end: 2
+  award:
+    title: 
+    org: 
+    link:
+  doi:
+  tba: true
+
+-
   key: kakei2026vddpi
   lang: en
   type: journal
