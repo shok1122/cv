@@ -58,12 +58,12 @@
     - 宮川夏海
     - 掛井将平
     - 齋藤彰一
-  journal: 第88回全国大会講演論文集
+  journal: 第88回全国大会講演論文集, 2U-03
   date:
     y: 2026
     m: 3
   volume:
-  number: 2U-03
+  number:
   page:
     start: 1
     end: 2
@@ -72,7 +72,6 @@
     org: 
     link:
   doi:
-  tba: true
 
 -
   key: kakei2026vddpi
