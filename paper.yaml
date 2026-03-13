@@ -767,8 +767,9 @@
     y: 2023
     m: 12
   page:
-    start: 1
-    end: 8
+    start: 531
+    end: 538
+  doi: 10.24669/axies.2023.0_531
 
 -
   key: kakei2023design
