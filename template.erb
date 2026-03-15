@@ -145,7 +145,7 @@
   </div>
 
   <script>
-    let isReversed = false;
+    let currentOrder = 'older';
 
     function togglePopup(e) {
       e.stopPropagation();
@@ -154,19 +154,24 @@
     }
 
     function selectOrder(val) {
-      const shouldReverse = (val === 'newer');
-      if (shouldReverse !== isReversed) {
-        document.querySelectorAll('ol').forEach(ol => {
-          Array.from(ol.querySelectorAll(':scope > li')).reverse().forEach(li => ol.appendChild(li));
-        });
-        isReversed = shouldReverse;
+      if (val === currentOrder) {
+        document.getElementById('popup').style.display = 'none';
+        return;
       }
+      // Reverse the order of all <ol> elements
+      document.querySelectorAll('ol').forEach(ol => {
+        Array.from(ol.querySelectorAll(':scope > li')).reverse().forEach(li => ol.appendChild(li));
+      });
+      currentOrder = val;
+
+      // Update the appearance of the radio buttons
       const rNewer = document.getElementById('radio-newer');
       const rOlder = document.getElementById('radio-older');
       [rNewer, rOlder].forEach(r => { r.innerHTML = ''; r.style.borderColor = '#aaa'; });
       const active = val === 'newer' ? rNewer : rOlder;
       active.style.borderColor = '#333';
       active.innerHTML = '<span style="width:8px;height:8px;border-radius:50%;background:#333;display:block;"></span>';
+
       document.getElementById('popup').style.display = 'none';
     }
 
