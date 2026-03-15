@@ -300,8 +300,8 @@
   volume: E108-D
   number: 8
   page:
-    start:
-    end:
+    start: 933
+    end: 946
   funds:
     - 22K17881
   doi: 10.1587/transinf.2024DAK0002
