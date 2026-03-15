@@ -16,9 +16,25 @@
   table.career tr td:first-child {
     width: 220px
   }
+  .sort-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    cursor: pointer;
+    background: #4a90d9;
+    color: white;
+    border: none;
+    border-radius: 6px;
+  }
+  .sort-btn:hover {
+    background: #357abd;
+  }
   </style>
 </head>
 <body>
+  <button class="sort-btn" id="sortBtn" onclick="toggleOrder()">🔼 古い順</button>
   <h2>経歴</h2>
   <h3>学歴</h3>
   <table class="career">
@@ -109,5 +125,21 @@
     <li><%=make_biblio(x)%></li>
     <%- end -%>
   </ol>
+
+  <script>
+    let isReversed = false;
+
+    function toggleOrder() {
+      const lists = document.querySelectorAll('ol');
+      lists.forEach(ol => {
+        const items = Array.from(ol.querySelectorAll(':scope > li'));
+        items.reverse().forEach(li => ol.appendChild(li));
+      });
+
+      isReversed = !isReversed;
+      document.getElementById('sortBtn').textContent =
+        isReversed ? '🔽 新しい順' : '🔼 古い順';
+    }
+  </script>
 </body>
 </html>
