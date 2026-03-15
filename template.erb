@@ -16,25 +16,9 @@
   table.career tr td:first-child {
     width: 220px
   }
-  .sort-btn {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    padding: 0.6em 1.2em;
-    font-size: 1em;
-    cursor: pointer;
-    background: #4a90d9;
-    color: white;
-    border: none;
-    border-radius: 6px;
-  }
-  .sort-btn:hover {
-    background: #357abd;
-  }
   </style>
 </head>
 <body>
-  <button class="sort-btn" id="sortBtn" onclick="toggleOrder()">🔼 古い順</button>
   <h2>経歴</h2>
   <h3>学歴</h3>
   <table class="career">
@@ -126,20 +110,70 @@
     <%- end -%>
   </ol>
 
+  <!-- Gear button -->
+  <button id="gearBtn" onclick="togglePopup(event)" style="
+    position: fixed; bottom: 24px; right: 24px;
+    width: 44px; height: 44px;
+    display: flex; align-items: center; justify-content: center;
+    background: #333; color: white;
+    border: none; border-radius: 50%;
+    cursor: pointer; z-index: 100;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  ">
+    <!-- gear SVG -->
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+      <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1Z" stroke="currentColor" stroke-width="1.8"/>
+    </svg>
+  </button>
+
+  <!-- Popup -->
+  <div id="popup" style="display:none; position:fixed; bottom:76px; right:24px;
+    background:white; border:1px solid #ddd; border-radius:10px;
+    padding:6px 0; min-width:160px; z-index:100; box-shadow:0 4px 16px rgba(0,0,0,0.12);">
+    <p style="font-size:12px; color:#888; margin:0; padding:8px 16px 6px; font-weight:500;">Sort order</p>
+    <label onclick="selectOrder('newer')" style="display:flex; align-items:center; gap:10px; padding:9px 16px; cursor:pointer; font-size:14px;">
+      <span id="radio-newer" style="width:16px; height:16px; border-radius:50%; border:1.5px solid #aaa; display:flex; align-items:center; justify-content:center; flex-shrink:0;"></span>
+      Newer first
+    </label>
+    <label onclick="selectOrder('older')" style="display:flex; align-items:center; gap:10px; padding:9px 16px; cursor:pointer; font-size:14px;">
+      <span id="radio-older" style="width:16px; height:16px; border-radius:50%; border:1.5px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;">
+        <span style="width:8px; height:8px; border-radius:50%; background:#333; display:block;"></span>
+      </span>
+      Older first
+    </label>
+  </div>
+
   <script>
     let isReversed = false;
 
-    function toggleOrder() {
-      const lists = document.querySelectorAll('ol');
-      lists.forEach(ol => {
-        const items = Array.from(ol.querySelectorAll(':scope > li'));
-        items.reverse().forEach(li => ol.appendChild(li));
-      });
-
-      isReversed = !isReversed;
-      document.getElementById('sortBtn').textContent =
-        isReversed ? '🔽 新しい順' : '🔼 古い順';
+    function togglePopup(e) {
+      e.stopPropagation();
+      const p = document.getElementById('popup');
+      p.style.display = p.style.display === 'none' ? 'block' : 'none';
     }
+
+    function selectOrder(val) {
+      const shouldReverse = (val === 'newer');
+      if (shouldReverse !== isReversed) {
+        document.querySelectorAll('ol').forEach(ol => {
+          Array.from(ol.querySelectorAll(':scope > li')).reverse().forEach(li => ol.appendChild(li));
+        });
+        isReversed = shouldReverse;
+      }
+      const rNewer = document.getElementById('radio-newer');
+      const rOlder = document.getElementById('radio-older');
+      [rNewer, rOlder].forEach(r => { r.innerHTML = ''; r.style.borderColor = '#aaa'; });
+      const active = val === 'newer' ? rNewer : rOlder;
+      active.style.borderColor = '#333';
+      active.innerHTML = '<span style="width:8px;height:8px;border-radius:50%;background:#333;display:block;"></span>';
+      document.getElementById('popup').style.display = 'none';
+    }
+
+    document.addEventListener('click', () => {
+      document.getElementById('popup').style.display = 'none';
+    });
   </script>
+
 </body>
 </html>
