@@ -26,6 +26,29 @@
 #  tba: true / false
 
 -
+  key: kakei2026prism
+  lang: en
+  type: journal
+  review: true
+  title: 'PRISM: Provable and Immutable Storage Mechanism with Ethereum-based PDP'
+  author:
+    - S. Kakei
+    - M. Hirotomo
+    - M. Mohri
+    - Y. Shiraishi
+  journal: 'Blockchain: Research and Applications'
+  date:
+    y: 2026
+    m: 4
+  volume: 
+  number: 100480
+  funds:
+    - 22K17881
+    - 25K21199
+  doi: 10.1016/j.bcra.2026.100480
+  tba: false
+
+-
   key: kakei2025continuous
   lang: jp
   type: proceedings
