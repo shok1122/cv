@@ -26,6 +26,26 @@
 #  tba: true / false
 
 -
+  key: sasaki2026log
+  lang: jp
+  type: proceedings
+  review: false
+  title: ログシミュレータを用いた自動ログ挿入技術の異常検知タスクへの適用可能性の予備的評価 
+  author:
+    - 佐々木康太
+    - 掛井将平
+    - 齋藤彰一
+  journal: 信学技報
+  date:
+    y: 2026
+    m: 6
+  volume: 126
+  number: 74
+  page:
+    start: 123
+    end: 130
+
+-
   key: kano2026cpu
   lang: jp # en, jp
   type: proceedings # journal
