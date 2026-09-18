@@ -453,10 +453,10 @@
     org: CSEC研究会
 
 -
-  key:
+  key: hamaguchi2025llm
   lang: jp
   type: proceedings
-  review: true / false
+  review: false
   title: テイント解析のためのLLMコンパイラの性能について
   author:
     - 濱口健人
@@ -476,7 +476,7 @@
     end: 218
 
 -
-  key:
+  key: sugihara2025taint
   lang: jp
   type: proceedings
   review: false
