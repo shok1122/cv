@@ -26,6 +26,29 @@
 #  tba: true / false
 
 -
+  key: kano2026cpu
+  lang: jp # en, jp
+  type: proceedings # journal
+  review: false
+  title: 部分的なバイナリコードに対するCPUアーキテクチャ分類
+  author:
+    - 加納慶人
+    - 瀧田愼
+    - 小路知希
+    - 葛野弘樹
+    - 掛井将平
+    - 白石善明
+  journal: 2026年電子情報通信学会総合大会予稿集
+  date:
+    y: 2026
+    m: 3
+  volume:
+  number:
+  page:
+    start:
+    end:
+
+-
   key: kakei2026prism
   lang: en
   type: journal
