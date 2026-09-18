@@ -44,6 +44,8 @@
   page:
     start: 123
     end: 130
+  funds:
+    - 25K21199
 
 -
   key: kano2026cpu
