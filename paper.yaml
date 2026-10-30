@@ -26,6 +26,215 @@
 #  tba: true / false
 
 -
+  key: sugihara2026structural
+  lang: en
+  type: journal
+  review: true
+  title: 'Structural preservation assessment of LLM-Based decompilation for static taint analysis'
+  author:
+    - T. Sugihara
+    - M. Takita
+    - M. Shitamukai
+    - H. Kuzuno
+    - S. Kakei
+    - Y. Shiraishi
+  journal: IEICE Transactions on Information and Systems
+  date:
+    y: 2027
+    m: 01
+  volume: E110-D
+  number: 1
+  page:
+  tba: true
+
+-
+  key: kakei2026automating
+  lang: jp
+  type: journal
+  review: true
+  title: '大学ネットワークにおける脆弱性調査の自動化と継続的セキュリティ監視の実現'
+  author:
+    - 掛井将平
+    - 守屋賢知
+    - 伊藤宏隆
+    - 打矢隆弘
+    - 齋藤彰一
+  journal: 学術情報処理研究
+  date:
+    y: 2026
+    m: 12
+  volume:
+  number:
+  page:
+  tba: true
+
+-
+  key: shiraishi2026formal
+  lang: jp
+  type: proceedings
+  review: false
+  title: 'パスキーの登録・復旧・失効における安全性条件の形式検証'
+  author:
+    - 白石善明
+    - 掛井将平
+    - 瀧田愼
+    - 廣友雅徳
+    - 葛野弘樹
+    - 毛利公美
+  journal: 研究報告コンピュータセキュリティ（CSEC）
+  date:
+    y: 2026
+    m: 12
+  volume:
+  number:
+  page:
+  tba: true
+
+-
+  key: sasaki2026analyzing
+  lang: en
+  type: proceedings
+  review: true
+  title: 'Analyzing the Utility of Automatically Inserted Logs for Log-Based Anomaly Detection: Observational and Interventional Evaluation Based on Execution-Path Separation'
+  author:
+    - K. Sasaki
+    - S. Kakei
+    - Y. Shiraishi
+    - S. Saito
+  journal: Proc. of The 13th IEEE International Conference on Cyber Security and Cloud Computing (CSCloud2026)
+  date:
+    y: 2026
+    m: 12
+  volume:
+  number:
+  page:
+  tba: true
+
+-
+  key: umeda2026cooperative
+  lang: en
+  type: proceedings
+  review: true
+  title: 'Cooperative REST API Access Delegation Using Verifiable Credentials Bound to Provider-Issued Eligibility'
+  author:
+    - T. Umeda
+    - S. Kakei
+    - Y. Shiraishi
+    - S. Saito
+  journal: Proc. of The 13th IEEE International Conference on Cyber Security and Cloud Computing (CSCloud2026)
+  date:
+    y: 2026
+    m: 12
+  volume:
+  number:
+  page:
+  tba: true
+
+-
+  key: kakei2026ethereum
+  lang: en
+  type: proceedings
+  review: true
+  title: 'Ethereum-based Access Control Framework Leveraging Delegated Smart Contract Execution'
+  author:
+    - S. Kakei
+    - Y. Shiraishi
+    - S. Saito
+  journal: Proc. of The 8th International Conference on Smart Vehicular Technology, Transportation, Communication and Applications (VTCA2026)
+  date:
+    y: 2026
+    m: 11
+  volume:
+  number:
+  page:
+  tba: true
+
+-
+  key: hirotomo2026system
+  lang: en
+  type: proceedings
+  review: true
+  title: 'A System for Providing Multi-Factor Authentication to Existing Web Applications Using a Browser Extension and a Reverse Proxy'
+  author:
+    - M. Hirotomo
+    - N. Goto
+    - S. Kakei
+    - Y. Shiraishi
+  journal: Proc. of The Fourteenth International Symposium on Computing and Networking (CANDAR2026)
+  date:
+    y: 2026
+    m: 11
+  volume:
+  number:
+  page:
+  tba: true
+
+-
+  key: hirotomo2026machine
+  lang: en
+  type: proceedings
+  review: true
+  title: 'Machine-Checked Verification of an IND-CPA Proof for HQC-PKE in EasyCrypt'
+  author:
+    - M. Hirotomo
+    - M. Takita
+    - S. Kakei
+    - H. Kuzuno
+    - M. Mohri
+    - Y. Shiraishi
+  journal: Proc. of The Fourteenth International Symposium on Computing and Networking (CANDAR2026)
+  date:
+    y: 2026
+    m: 11
+  volume:
+  number:
+  page:
+  tba: true
+
+-
+  key: okubo2026machine
+  lang: en
+  type: proceedings
+  review: true
+  title: 'A Machine-Checked IND-CPA Security Reduction for the BIKE Public-Key Encryption Scheme in EasyCrypt'
+  author:
+    - S. Okubo
+    - M. Takita
+    - M. Hirotomo
+    - S. Kakei
+    - M. Mohri
+    - H. Kuzuno
+    - Y. Shiraishi
+  journal: Proc. of The 29th Annual International Conference on Information Security and Cryptology
+  date:
+    y: 2026
+    m: 11
+  volume:
+  number:
+  page:
+  tba: true
+
+-
+  key: kakei2026data
+  lang: jp
+  type: proceedings
+  review: false
+  title: 'Trusted Execution Environment を用いて利用と削除を不可分に証明するデータライフサイクル管理機構'
+  author:
+    - 掛井将平
+    - 福田洋治
+    - 白石善明
+    - 齋藤彰一
+  journal: 信学技報
+  date:
+    y: 2026
+    m: 11
+  volume:
+  number:
+  page:
+  tba: true
+
+-
   key: azuma2026design
   lang: jp
   type: proceedings
