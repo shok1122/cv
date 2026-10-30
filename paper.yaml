@@ -26,6 +26,215 @@
 #  tba: true / false
 
 -
+  key: azuma2026design
+  lang: jp
+  type: proceedings
+  review: false
+  title: 'ソケット通信に着目したIoTファームウェア解析フレームワークの設計と予備的評価'
+  author:
+    - 東政澄
+    - 掛井将平
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2025（CSS2026）予稿集
+  date:
+    y: 2026
+    m: 10
+  volume:
+  number:
+  page:
+    start: 48
+    end: 55
+
+-
+  key: yamashita2026role
+  lang: jp
+  type: proceedings
+  review: false
+  title: 'ロールの事前探索によるREST APIファジング手法の提案'
+  author:
+    - 山下一樹
+    - 掛井将平
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2025（CSS2026）予稿集
+  date:
+    y: 2026
+    m: 10
+  volume:
+  number:
+  page:
+    start: 2304
+    end: 2312
+
+-
+  key: saito2026determining
+  lang: jp
+  type: proceedings
+  review: false
+  title: 'Ghidra High P-code に基づく関数の意味的等価性判定'
+  author:
+    - 斎藤勇斗
+    - 掛井将平
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2025（CSS2026）予稿集
+  date:
+    y: 2026
+    m: 10
+  volume:
+  number:
+  page:
+    start: 2329
+    end: 2336
+
+-
+  key: sato2026improving
+  lang: jp
+  type: proceedings
+  review: false
+  title: 'Android ネイティブ領域における間接呼び出し解決に基づくJNIコールバック静的解析の検出網羅性向上'
+  author:
+    - 佐藤大樹
+    - 稲吉弘樹
+    - 掛井将平
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2025（CSS2026）予稿集
+  date:
+    y: 2026
+    m: 10
+  volume:
+  number:
+  page:
+    start: 2358
+    end: 2369
+
+-
+  key: sato2026security
+  lang: jp
+  type: proceedings
+  review: false
+  title: 'Android App Bundleの動的機能モジュールに対するセキュリティ解析'
+  author:
+    - 佐藤優樹
+    - 稲吉弘樹
+    - 掛井将平
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2025（CSS2026）予稿集
+  date:
+    y: 2026
+    m: 10
+  volume:
+  number:
+  page:
+    start: 2370
+    end: 2377
+
+-
+  key: sasaki2026eval
+  lang: jp
+  type: proceedings
+  review: false
+  title: '動的実行ログを用いたログベース異常検知における自動ログ挿入技術の有効性評価'
+  author:
+    - 佐々木康太
+    - 掛井将平
+    - 白石善明
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2025（CSS2026）予稿集
+  date:
+    y: 2026
+    m: 10
+  volume:
+  number:
+  page:
+    start: 2856
+    end: 2866
+
+-
+  key: okui2026impact
+  lang: jp
+  type: proceedings
+  review: false
+  title: '外部通信受入プロセスを起点とした来歴情報削減が侵入検知に与える影響'
+  author:
+    - 奥井真二郎
+    - 掛井将平
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2025（CSS2026）予稿集
+  date:
+    y: 2026
+    m: 10
+  volume:
+  number:
+  page:
+    start: 2867
+    end: 2874
+
+-
+  key: umeda2026verifiable
+  lang: jp
+  type: proceedings
+  review: false
+  title: 'Verifiable Credentialsを基盤とした自己主権型アクセス権限委譲方式：REST APIへの適用'
+  author:
+    - 梅田匠
+    - 掛井将平
+    - 白石善明
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2025（CSS2026）予稿集
+  date:
+    y: 2026
+    m: 10
+  volume:
+  number:
+  page:
+    start: 3268
+    end: 3275
+
+-
+  key: umeda2026verifiable
+  lang: jp
+  type: proceedings
+  review: false
+  title: 'Verifiable Credentialsを基盤とした自己主権型アクセス権限委譲方式：REST APIへの適用'
+  author:
+    - 梅田匠
+    - 掛井将平
+    - 白石善明
+    - 齋藤彰一
+  journal: コンピュータセキュリティシンポジウム2025（CSS2026）予稿集
+  date:
+    y: 2026
+    m: 10
+  volume:
+  number:
+  page:
+    start: 3268
+    end: 3275
+
+-
+  key: okubo2026easycrypt
+  lang: jp
+  type: proceedings
+  review: false
+  title: 'EasyCryptを用いたBIKE公開鍵暗号のIND-CPA安全性の形式検証'
+  author:
+    - 大久保翔馬
+    - 瀧田愼
+    - 廣友雅徳
+    - 掛井将平
+    - 毛利公美
+    - 葛野弘樹
+    - 白石善明
+  journal: コンピュータセキュリティシンポジウム2025（CSS2026）予稿集
+  date:
+    y: 2026
+    m: 10
+  volume:
+  number:
+  page:
+    start: 2627
+    end: 2636
+
+-
   key: sasaki2026log
   lang: jp
   type: proceedings
