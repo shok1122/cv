@@ -109,6 +109,8 @@
   number:
   page:
   tba: true
+  funds:
+    - 25K21199
 
 -
   key: umeda2026cooperative
@@ -129,6 +131,8 @@
   number:
   page:
   tba: true
+  funds:
+    - 25K21199
 
 -
   key: kakei2026ethereum
@@ -148,6 +152,8 @@
   number:
   page:
   tba: true
+  funds:
+    - 25K21199
 
 -
   key: hirotomo2026system
@@ -233,6 +239,8 @@
   number:
   page:
   tba: true
+  funds:
+    - 25K21199
 
 -
   key: azuma2026design
@@ -244,7 +252,7 @@
     - 東政澄
     - 掛井将平
     - 齋藤彰一
-  journal: コンピュータセキュリティシンポジウム2025（CSS2026）予稿集
+  journal: コンピュータセキュリティシンポジウム2026（CSS2026）予稿集
   date:
     y: 2026
     m: 10
@@ -264,7 +272,7 @@
     - 山下一樹
     - 掛井将平
     - 齋藤彰一
-  journal: コンピュータセキュリティシンポジウム2025（CSS2026）予稿集
+  journal: コンピュータセキュリティシンポジウム2026（CSS2026）予稿集
   date:
     y: 2026
     m: 10
@@ -284,7 +292,7 @@
     - 斎藤勇斗
     - 掛井将平
     - 齋藤彰一
-  journal: コンピュータセキュリティシンポジウム2025（CSS2026）予稿集
+  journal: コンピュータセキュリティシンポジウム2026（CSS2026）予稿集
   date:
     y: 2026
     m: 10
@@ -305,7 +313,7 @@
     - 稲吉弘樹
     - 掛井将平
     - 齋藤彰一
-  journal: コンピュータセキュリティシンポジウム2025（CSS2026）予稿集
+  journal: コンピュータセキュリティシンポジウム2026（CSS2026）予稿集
   date:
     y: 2026
     m: 10
@@ -326,7 +334,7 @@
     - 稲吉弘樹
     - 掛井将平
     - 齋藤彰一
-  journal: コンピュータセキュリティシンポジウム2025（CSS2026）予稿集
+  journal: コンピュータセキュリティシンポジウム2026（CSS2026）予稿集
   date:
     y: 2026
     m: 10
@@ -347,7 +355,7 @@
     - 掛井将平
     - 白石善明
     - 齋藤彰一
-  journal: コンピュータセキュリティシンポジウム2025（CSS2026）予稿集
+  journal: コンピュータセキュリティシンポジウム2026（CSS2026）予稿集
   date:
     y: 2026
     m: 10
@@ -356,6 +364,8 @@
   page:
     start: 2856
     end: 2866
+  funds:
+    - 25K21199
 
 -
   key: okui2026impact
@@ -367,7 +377,7 @@
     - 奥井真二郎
     - 掛井将平
     - 齋藤彰一
-  journal: コンピュータセキュリティシンポジウム2025（CSS2026）予稿集
+  journal: コンピュータセキュリティシンポジウム2026（CSS2026）予稿集
   date:
     y: 2026
     m: 10
@@ -388,7 +398,7 @@
     - 掛井将平
     - 白石善明
     - 齋藤彰一
-  journal: コンピュータセキュリティシンポジウム2025（CSS2026）予稿集
+  journal: コンピュータセキュリティシンポジウム2026（CSS2026）予稿集
   date:
     y: 2026
     m: 10
@@ -397,27 +407,8 @@
   page:
     start: 3268
     end: 3275
-
--
-  key: umeda2026verifiable
-  lang: jp
-  type: proceedings
-  review: false
-  title: 'Verifiable Credentialsを基盤とした自己主権型アクセス権限委譲方式：REST APIへの適用'
-  author:
-    - 梅田匠
-    - 掛井将平
-    - 白石善明
-    - 齋藤彰一
-  journal: コンピュータセキュリティシンポジウム2025（CSS2026）予稿集
-  date:
-    y: 2026
-    m: 10
-  volume:
-  number:
-  page:
-    start: 3268
-    end: 3275
+  funds:
+    - 25K21199
 
 -
   key: okubo2026easycrypt
@@ -433,7 +424,7 @@
     - 毛利公美
     - 葛野弘樹
     - 白石善明
-  journal: コンピュータセキュリティシンポジウム2025（CSS2026）予稿集
+  journal: コンピュータセキュリティシンポジウム2026（CSS2026）予稿集
   date:
     y: 2026
     m: 10
