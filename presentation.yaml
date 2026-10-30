@@ -13,6 +13,40 @@
 -
   lang: jp
   type: poster
+  title: 'Personal Data Storeを用いたIoTデータの自己管理型アクセス制御の検討'
+  author:
+    - 滝本那奈
+    - 掛井将平
+    - 齋藤彰一
+  date:
+    y: 2026
+    m: 10
+  conference: コンピュータセキュリティシンポジウム2026（CSS2026）
+  number: DP-36
+  city: 浜松
+  funds:
+    - 25K21199
+
+-
+  lang: jp
+  type: poster
+  title: 'OpenID Connectを用いたスマートコントラクト代理実行における身元秘匿と本人同意の検証'
+  author:
+    - 平山洪
+    - 掛井将平
+    - 齋藤彰一
+  date:
+    y: 2026
+    m: 10
+  conference: コンピュータセキュリティシンポジウム2026（CSS2026）
+  number: DP-15
+  city: 浜松
+  funds:
+    - 25K21199
+
+-
+  lang: jp
+  type: poster
   title: 'Verifiable Credentialsを基盤としたパーソナルLLMのための分散アクセス権限移譲フレームワーク'
   author:
     - 梅田匠
