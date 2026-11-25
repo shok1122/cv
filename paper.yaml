@@ -235,10 +235,11 @@
   date:
     y: 2026
     m: 11
-  volume:
-  number:
+  volume: 126
+  number: 238
   page:
-  tba: true
+    start: 30
+    end: 37
   funds:
     - 25K21199
 
